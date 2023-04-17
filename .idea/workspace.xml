@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4525ee18-ff13-4d29-8efa-610c962c3b61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/beyza test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -43,7 +44,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679927783116</updated>
-      <workItem from="1679927788482" duration="324000" />
+      <workItem from="1679927788482" duration="643000" />
+      <workItem from="1679989141640" duration="30000" />
+      <workItem from="1679989173382" duration="604000" />
+      <workItem from="1679991234584" duration="1227000" />
     </task>
     <servers />
   </component>
@@ -60,5 +64,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
