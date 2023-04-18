@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*navbar*/
+.iconlogo{
+    width: 120px;
+    height: 103px;
+}
+/*hoe werkt het pagina*/
+main.hoe_werkt_het div img {
+    width: 200px;
+}

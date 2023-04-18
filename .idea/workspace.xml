@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4525ee18-ff13-4d29-8efa-610c962c3b61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/style_bedrijven.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/stap1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/stap2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/stap3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/stap4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/stap5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/stap6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style_hoe_werkt_het.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrijven.html" beforeDir="false" afterPath="$PROJECT_DIR$/bedrijven.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hoe_werkt_het.html" beforeDir="false" afterPath="$PROJECT_DIR$/hoe_werkt_het.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +57,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Darah\OneDrive\Bureaublad\Github\2223_1DVO_WPL2_GROEP_12\assets" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
