@@ -1,5 +1,12 @@
+/*algemeen*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* Remove default list styles and set display to inline-block */
 .iconlogo{
     width: 120px;
     height: 103px;
 }
+/* Bedrijven tab */
