@@ -3,145 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <title>Bedrijven</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style_bedrijven.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<nav>
-    <section>
-        <a href="index.html"><img src="assets/Kompas.png" alt="logo_klein"></a>
-        <a href="hoe_werkt_het.html"></a>
-        <a href="bedrijven.html"></a>
-        <a href="matchers.html"></a>
-        <a href="supplementen.html"></a>
-    </section>
-    <section>
-        <a href="registreren.html"></a>
-        <a href="aanmelden.html"></a>
-        <a href=""></a>
-        <a href="account.html"><img src="" alt="account"></a>
-    </section>
+<nav class="p-3 outline-dark">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="index.html"><img src="assets/Kompas.png" alt="icontje" class="iconlogo"></a>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="index.html" class="nav-link px-2 text-dark">Home</a></li>
+                <li><a href="hoe_werkt_het.html" class="nav-link px-2 text-dark">Hoe werkt het?</a></li>
+                <li><a href="#" class="nav-link px-2 text-dark">Bedrijven</a></li>
+                <li><a href="matchers.html" class="nav-link px-2 text-dark active">Matchers</a></li>
+                <li><a href="supplementen.html" class="nav-link px-2 text-dark">Supplementen</a></li>
+            </ul>
+            <div class="text-end">
+                <button type="button" class="btn btn-outline-dark me-2">Login</button>
+                <button type="button" class="btn btn-dark text-light">Sign-up</button>
+            </div>
+        </div>
+        <hr>
+    </div>
 </nav>
-<main>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
-    <a href="">
-        <img src="" alt="logo">
-        <p>bedrijf1</p>
-    </a>
+<main id="bedrijven" class="container">
+    <div class="row col-12 mx-auto">
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf2</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf3</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf4</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+            <a href="" class="col-2">
+                <img src="" alt="logo">
+                <p>bedrijf1</p>
+            </a>
+    </div>
 </main>
-<footer>
-    <section>
-        <a href="#"><img src="" alt="instagram"></a>
-        <a href="#"><img src="" alt="facebook"></a>
-        <a href="#"><img src="" alt="linkedin"></a>
-    </section>
-    <section>
-        <div>
-            <p>+32 123 45 67 89</p>
-            <img src="" alt="telefoon_icon">
+<footer class="container mx-auto">
+    <hr>
+    <div class="row justify-content-evenly">
+        <div class="row col-4 align-items-center">
+            <a class="col-4" href="#"><img src="" alt="instagram"></a>
+            <a class="col-4" href="#"><img src="" alt="facebook"></a>
+            <a class="col-4" href="#"><img src="" alt="linkedin"></a>
         </div>
-        <div>
-            <p>JobAhoi@gmail.com</p>
-            <img src="" alt="email_icon">
+        <p class="col-4"></p>
+        <div class="col-4">
+            <div class="row">
+                <p class="col-6">+32 123 45 67 89</p>
+                <img class="col-6" src="" alt="telefoon_icon">
+            </div>
+            <div class="row">
+                <p class="col-6">JobAhoi@gmail.com</p>
+                <img class="col-6" src="" alt="email_icon">
+            </div>
+            <div class="row">
+                <p class="col-6">Corda Campus |Hasselt</p>
+                <img class="col-6" src="" alt="locatie_icon">
+            </div>
         </div>
-        <div>
-            <p>Corda Campus |Hasselt</p>
-            <img src="" alt="locatie_icon">
-        </div>
-    </section>
+    </div>
 </footer>
 </body>
 </html>
