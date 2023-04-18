@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.iconlogo{
+    width: 100px;
+    height: 80px;
+}
+
+.pakket{
+    height: 18rem;
+}
+
+.toppakket{
+    height: 20rem;
+}
+
+.contact {
+    margin-left: 2rem;
+}
+
+.icons {
+    height: 1px;
+}
