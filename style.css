@@ -1,6 +1,86 @@
 /* Remove default list styles and set display to inline-block */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
+/*nav OK */
 .iconlogo{
     width: 120px;
-    height: 103px;
+    height: 67px;
 }
+.active{
+    font-weight: bold;
+}
+#registreerbtn{
+    background-color: #B2D2FF;
+    border-color: #B2D2FF;
+    width: 110px;
+}
+#registreerbtn:hover{
+    font-weight: bolder;
+    background-color: #66a6ff;
+}
+/* intro*/
+.intro{
+    background-color: #B2D2FF;
+    height: 35vw;
+}
+.introtekst{
+    color: white;
+}
+.introfoto{
+    width: 349px;
+    height: 405px;
+    margin-top: 8.65vw;
+}
+.logo{
+    width: 480px;
+    height: 270px;
+}
+.hoofdtitel{
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+/*qr en install */
+.qr{
+    width: 150px;
+    height: 150px;
+}
+.googleplay{
+    width: 151px;
+    height: 45px;
+}
+.applestore{
+    width: 135px;
+    height: 45px;
+}
+/*Hoe */
+.pijl{
+    width: 15px;
+    height: 15px;
+}
+.hoe{
+    font-weight: bold;
+}
+.hoe:hover{
+    font-weight: bolder;
+    color: #ED4F4F;
+}
+.scherm{
+    width: 340px;
+    height: 452px;
+    transform: rotate(10deg);
+}
+/*mathcmakers*/
+.matchfoto{
+    width: 147px;
+    height: 162px;
+}
+
 

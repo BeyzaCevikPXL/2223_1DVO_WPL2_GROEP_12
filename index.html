@@ -3,119 +3,203 @@
 <head>
     <meta charset="UTF-8">
     <title>Ahoi</title>
-    <link rel="stylesheet" href="bootstrap/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="bootstrap/bootstrap-grid.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
     <script defer src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<nav class="navbar navbar-expand">
-    <!-- rechts-->
-    <ul class="nav-list">
-        <li class="nav-item">
-            <a href="#"> <img src="assets/Kompas.png" alt="icontje" class="iconlogo"></a>
-        </li>
-        <li class="nav-item">
-            <a href="hoe_werkt_het.html">Hoe werkt het?</a>
-        </li>
-        <li class="nav-item">
-            <a href="bedrijven.html">Bedrijven</a>
-        </li>
-        <li class="nav-item">
-            <a href="matchers.html">Matchers</a>
-        </li>
-        <li class="nav-item">
-            <a href="supplementen.html">Supplementen</a>
-        </li>
-    </ul>
-    <!-- links-->
-    <ul class="navbar-list">
-        <li class="nav-item">
-            <a href="registreren.html">Registreren</a>
-        </li>
-        <li class="nav-item">
-            <a href="aanmelden.html">Aanmelden</a>
-        </li>
-        <li class="nav-item">
-            <a href="account.html"><img src="" alt="account">ICON</a>
-        </li>
-    </ul>
-</nav>
-
-<header>
-    <img src="" alt="Logo">
-    <img src="" alt="voorbeeld-app">
-    <p>Scan de QR-code of ontdek de Ahoi-app in de App Store en Google Play.</p>
-    <img src="" alt="qr-code">
-    <a href="https://www.appstore.com/jobahoi"><img src="" alt="appstore"></a>
-    <a href="https://www.googleplay.com/jobahoi"><img src="" alt="googleplay"></a>
+<!--navigatie bar OK-->
+<header class="p-3 outline-dark" id="navigatiebar">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="#"> <img src="assets/Icon.png" alt="icontje" class="iconlogo"></a>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="active nav-link px-2 text-dark">Home</a></li>
+                <li><a href="hoe_werkt_het.html" class="nav-link px-2 text-dark">Hoe werkt het?</a></li>
+                <li><a href="bedrijven.html" class="nav-link px-2 text-dark">Bedrijven</a></li>
+                <li><a href="matchers.html" class="nav-link px-2 text-dark">Matchers</a></li>
+                <li><a href="supplementen.html" class="nav-link px-2 text-dark">Supplementen</a></li>
+                <li><a href="overons.html" class="nav-link px-2 text-dark">Over ons</a></li>
+            </ul>
+            <div class="text-end btns">
+                <button type="button" class="btn btn-outline-dark me-2">Login</button>
+                <button type="button" class="btn" id="registreerbtn">Registreer</button>
+            </div>
+        </div>
+    </div>
 </header>
-<main>
-    <section>
-        <h1>Hoe werkt het?</h1>
-        <p>Na het aanmaken van je account kan je meteen een eerste gesprek inplannen. Tijdens dit gesprek zal één van onze 'matchers' jouw persoonlijkheid en interesses matchen met verschillende bedrijven aan de hand van een algoritme.</p>
-        <p>Na je eerste gesprek kan je op de homepagina je matches bekijken.
-            Hier kan je meer te weten komen over bedrijven en kan je ook contact opnemen als je geïnteresseerd bent!</p>
-        <a href="hoe_werkt_het.html">Ontdek meer</a>
-    </section>
-    <section>
-        <div>
-            <h1>Missie</h1>
-            <p>Onze missie is het aanbieden van een innovatief platform voor het matchen
-                van mensen die niet tevreden zijn met hun huidige job aan bedrijven zodat
-                zei hun ideale baan kunnen vinden.
-            </p>
-            <p>Zo kunnen we ook het zoekproces naar een baan efficiënter, effectiever en
-                discreter te maken terwijl werkgevers toegang krijgen tot het beste talent
-                in de sector.</p>
+<!--intro OK -->
+<div class="container-fluid intro">
+    <div class="row">
+        <div class="text-end col-xl-4 col-lg-4 col-sm-12">
+            <img src="assets/Layer 4.png" alt="vrouw op gsm" class="introfoto"/>
         </div>
-        <div>
-            <h1>Visie</h1>
-            <p>Wij geloven dat we, door gegevens en technologie te gebruiken om mensen
-                te koppelen aan hun ideale baan, mensen kunnen helpen een bevredigende
-                carrière te vinden die aansluit bij hun vaardigheden, interesses en passie,
-                terwijl we ook werkgevers in deze sectoren helpen het beste talent voor hun
-                bedrijf te vinden.</p>
+        <div class="text-end col-xl-6 col-lg-6 col-sm-12 mt-5 introtekst">
+            <img src="assets/Logo.png" alt="logo" class="logo">
+            <h1>Zet koers naar je</h1>
+            <h1 class="hoofdtitel"><i>Droomcariére</i></h1>
         </div>
-    </section>
-    <section>
-        <div>
-            <p>Kom meer te weten over de mensen die jou helpen om je droomjob te vinden!</p>
-            <div>
-                <a href="matchers.html"><img src="" alt="matchmakers_icon"></a>
-                <p>Match Makers</p>
+    </div>
+</div>
+<div class="container">
+    <!-- counter -->
+    <div class="container text-center my-5">
+        <p>Wij hielpen al</p>
+        <p class="cijfers">9885</p>
+        <p>Mensen met het vinden van hun droomjob</p>
+    </div>
+    <!-- qr en install OK -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="text-center col-2">
+                <img src="assets/Icon%20metro-qrcode.png" alt="qr code" class="qr">
+            </div>
+            <div class="col-2">
+                <a href="https://www.apple.com/benl/app-store/">
+                    <img src="assets/DownloadAppStore_NL.png" alt="Apple Store Link" class="applestore">
+                </a>
+                <a href="https://www.googleplay.com/jobahoi">
+                    <img src="assets/GooglePlay.png" alt="Google Play Link" class="googleplay">
+                </a>
+            </div>
+            <div class="col-6">
+                <h3>Scan de QR-code of ontdek de Ahoi-app in de <br>
+                    App Store en Google Play.</h3>
             </div>
         </div>
-        <div>
-            <div>
-                <a href="bedrijven.html"><img src="" alt="bedrijven_icon"></a>
-                <p>Bedrijven</p>
+    </div>
+    <!-- hoe werkt het OK-->
+    <div class="container-fluid">
+        <h1 class="text-center my-5">Hoe werkt het?</h1>
+        <div class="row">
+            <div class="col-8">
+                <p>Na het aanmaken van je account kan je meteen een eerste gesprek <br>
+                    inplannen. Tijdens dit gesprek zal één van onze 'matchers' jouw <br>
+                    persoonlijkheid en interesses matchen met verschillende bedrijven aan de <br>
+                    hand van een algoritme.</p>
+                <p>Na je eerste gesprek kan je op de homepagina je matches bekijken. <br>
+                    Hier kan je meer te weten komen over bedrijven en kan je ook contact <br>
+                    opnemen als je geïnteresseerd bent!</p>
+                <a href="hoe_werkt_het.html">
+                    <button class="btn hoe">Ontdek meer
+                        <img src="assets/Icon awesome-arrow-right.png" alt="pijltje" class="pijl"/></button>
+                </a>
             </div>
-            <p>Neem een kijkje bij de bedrijven waar jij gematcht mee zou kunnen worden in de app!</p>
+            <div class="col-4">
+                <img src="assets/scherm.png" alt="scherm app" class="scherm"/>
+            </div>
         </div>
-    </section>
-</main>
-<footer>
-    <section>
-        <a href="#"><img src="" alt="instagram"></a>
-        <a href="#"><img src="" alt="facebook"></a>
-        <a href="#"><img src="" alt="linkedin"></a>
-    </section>
-    <section>
-        <div>
-            <p>+32 123 45 67 89</p>
-            <img src="" alt="telefoon_icon">
+    </div>
+    <!-- matchers OK -->
+    <div class="container-fluid">
+        <h1 class="text-center my-5">Onze jobmatchers</h1>
+        <div class="row">
+            <div class="col-3">
+                <img src="assets/Matcher1.png" alt="Matchmaker foto" class="matchfoto" height="324" width="277"/>
+                <h3>Steven</h3>
+                <p>35 jaar</p>
+                <p>Metaal</p>
+            </div>
+            <div class="col-3">
+                <img src="assets/Matcher2.png" alt="Matchmaker foto" class="matchfoto" height="324" width="277"/>
+                <h3>Nathalie</h3>
+                <p>43 jaar</p>
+                <p>Logistiek</p>
+            </div>
+            <div class="col-3">
+                <img src="assets/Matcher3.png" alt="Matchmaker foto" class="matchfoto" height="324" width="277"/>
+                <h3>Dirk</h3>
+                <p>29 jaar</p>
+                <p>Bouw</p>
+            </div>
         </div>
-        <div>
-            <p>JobAhoi@gmail.com</p>
-            <img src="" alt="email_icon">
+    </div>
+    <div>
+        <a href="matchers.html">
+            <button class="btn matchbtn">Bekijk alles</button>
+        </a>
+    </div>
+    <!--Bedrijven-->
+    <div class="container ">
+        <h1 class="text-center my-5">Bedrijven</h1>
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="card" style="height: 380px">
+                    <img src="assets/Bedrijf1.png" class="bedrijf" alt="bedrijf foto"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Metalverse</h5>
+                        <p>Werkstraat 50, Hasselt</p>
+                        <p class="card-text">
+                            Metaalbewerking
+                        </p>
+                        <img src="assets/Icon awesome-star.png" alt="ster rating" height="21" width="22"/>
+                        <img src="assets/Icon awesome-star.png" alt="ster rating" height="21" width="22"/>
+                        <img src="assets/Icon awesome-star.png" alt="ster rating" height="21" width="22"/>
+                        <img src="assets/Icon awesome-star.png" alt="ster rating" height="21" width="22"/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card" style="height: 380px">
+                    <img src="assets/Bedrijf2.png" class="bedrijf" alt="bedrijf foto"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Logic Hasselt</h5>
+                        <p class="adres">Hasseltsesteenweg 850, Genk</p>
+                        <p class="card-text">Logistiek</p>
+                        <img src="assets/Icon awesome-star.png" alt="ster rating" height="21" width="22"/>
+                        <img src="assets/Icon awesome-star.png" alt="ster rating" height="21" width="22"/>
+                        <img src="assets/Icon awesome-star.png" alt="ster rating" height="21" width="22"/>
+                        <img src="assets/Icon awesome-star.png" alt="ster rating" height="21" width="22"/>
+                        <img src="assets/Icon awesome-star.png" alt="ster rating" height="21" width="22"/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card" style="height: 380px">
+                    <img src="assets/Bedrijf3.png" class="bedrijf" alt="bedrijf foto"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Splinter NV</h5>
+                        <p class="adres">Oudebaan 75, Houthalen</p>
+                        <p class="card-text">Bouw</p>
+                        <img src="assets/Icon awesome-star.png" alt="ster rating" height="21" width="22"/>
+                        <img src="assets/Icon awesome-star.png" alt="ster rating" height="21" width="22"/>
+                        <img src="assets/Icon awesome-star.png" alt="ster rating" height="21" width="22"/>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-            <p>Corda Campus |Hasselt</p>
-            <img src="" alt="locatie_icon">
+    </div>
+</div>
+<!--footer-->
+<footer class="container mx-auto">
+    <hr>
+    <div class="row justify-content-evenly">
+        <div class="row col-4 align-items-center">
+            <a class="col-4" href="#"><img src="" alt="instagram"></a>
+            <a class="col-4" href="#"><img src="" alt="facebook"></a>
+            <a class="col-4" href="#"><img src="" alt="linkedin"></a>
         </div>
-    </section>
+        <p class="col-4"></p>
+        <div class="col-4">
+            <div class="row">
+                <p class="col-6">+32 123 45 67 89</p>
+                <img class="col-6" src="" alt="telefoon_icon">
+            </div>
+            <div class="row">
+                <p class="col-6">JobAhoi@gmail.com</p>
+                <img class="col-6" src="" alt="email_icon">
+            </div>
+            <div class="row">
+                <p class="col-6">Corda Campus |Hasselt</p>
+                <img class="col-6" src="" alt="locatie_icon">
+            </div>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
