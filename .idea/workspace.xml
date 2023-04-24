@@ -5,16 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab283a1b-d33f-4ab8-bd8a-13b75af5a8f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/stap1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/stap2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/stap3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/stap4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/stap5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/stap6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hoe_werkt_het.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bedrijf1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bedrijf10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bedrijf11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bedrijf12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bedrijf2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bedrijf4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bedrijf5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bedrijf6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bedrijf7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bedrijf8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bedrijf9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hoe_werkt_het.html" beforeDir="false" afterPath="$PROJECT_DIR$/hoe_werkt_het.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matchers.html" beforeDir="false" afterPath="$PROJECT_DIR$/matchers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Bedrijf1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Bedrijf2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Bedrijf3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bedrijven.html" beforeDir="false" afterPath="$PROJECT_DIR$/bedrijven.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style_bedrijven.css" beforeDir="false" afterPath="$PROJECT_DIR$/style_bedrijven.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +50,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Darah\OneDrive\Bureaublad\Github\2223_1DVO_WPL2_GROEP_12\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Darah\OneDrive\Bureaublad\Github\2223_1DVO_WPL2_GROEP_12\assets" />
     </key>
   </component>
