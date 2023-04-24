@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.iconlogo{
+    width: 100px;
+}
+.contact {
+    margin-left: 2rem;
+}
+
+.icons {
+    height: 1px;
+}
+.illustraties {
+    width: 200px;
+}

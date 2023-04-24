@@ -3,31 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <title>Hoe werkt het?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="hoe_werkt_het.css">
 </head>
 <body>
-<nav>
-    <section>
-        <a href="index.html"><img src="assets/Kompas.png" alt="logo_klein"></a>
-        <a href="hoe_werkt_het.html"></a>
-        <a href="bedrijven.html"></a>
-        <a href="matchers.html"></a>
-        <a href="supplementen.html"></a>
-    </section>
-    <section>
-        <a href="registreren.html"></a>
-        <a href="aanmelden.html"></a>
-        <a href=""></a>
-        <a href="account.html"><img src="" alt="account"></a>
-    </section>
+<nav class="p-3 outline-dark">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+
+            <a href="#"> <img src="assets/Icon.png" alt="logo" class="iconlogo"></a>
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 text-dark">Home</a></li>
+                <li><a href="#" class="nav-link px-2 text-dark">Hoe werkt het?</a></li>
+                <li><a href="#" class="nav-link px-2 text-dark">Bedrijven</a></li>
+                <li><a href="#" class="nav-link px-2 text-dark active">Matchers</a></li>
+                <li><a href="#" class="nav-link px-2 text-dark">Supplementen</a></li>
+            </ul>
+
+            <div class="text-end">
+                <button type="button" class="btn btn-outline-dark me-2">Login</button>
+                <button type="button" class="btn btn-dark text-light">Registreer</button>
+            </div>
+        </div>
+    </div>
 </nav>
-<header>
-
-</header>
-<main>
-
+<main id="hoe_werkt_het" class="container mx-auto my-5">
+    <div class="container row justify-content-evenly my-5">
+        <img class="illustraties col-3" src="assets/stap1.png" alt="stap1">
+        <div class="col-4 align-content-center">
+            <h1>Stap 1:</h1>
+            <p>Registreer in de app op log in. Als u een bedrijfs<br>account wilt contacteer dan Job Ahoi.</p>
+        </div>
+    </div>
+    <div class="container row justify-content-evenly my-5">
+        <img class="illustraties col-3" src="assets/stap2.png" alt="stap2">
+        <div class="col-4 align-content-center">
+            <h1>Stap 2:</h1>
+            <p>Na het invullen van je gegevens kan je al<br>meteen enkele interesses aanduiden om je<br>account aan te
+                vullen.</p>
+        </div>
+    </div>
+    <div class="container row justify-content-evenly my-5">
+        <img class="illustraties col-3" src="assets/stap3.png" alt="stap3">
+        <div class="col-4 align-content-center">
+            <h1>Stap 3:</h1>
+            <p>Maak een eerste afspraak met één van de<br>matchers om je account aan te vullen en<br>gematcht te worden
+                aan
+                bedrijven.</p>
+        </div>
+    </div>
+    <div class="container row justify-content-evenly my-5">
+        <img class="illustraties col-3" src="assets/stap4.png" alt="stap4">
+        <div class="col-4 align-content-center">
+            <h1>Stap 4:</h1>
+            <p>Op je homepage krijg je nu matches te zien.<br>Je kan meer info vinden over deze bedrijven,<br>anonieme
+                reviews zien van werknemers of<br>andere gebruikers van de app en contact<br>opnemen met het bedrijf
+                indien
+                u interesse heeft!</p>
+        </div>
+    </div>
+    <div class="container row justify-content-evenly my-5">
+        <img class="illustraties col-3" src="assets/stap5.png" alt="stap5">
+        <div class="col-4 align-content-center">
+            <h1>Stap 5:</h1>
+            <p>Op je profiel pagina kan je je gegevens<br>aanpassen, aanvullen, filters toepassen op<br>je matches en je
+                account aanvullen.</p>
+        </div>
+    </div>
+    <div class="container row justify-content-evenly my-5">
+        <img class="illustraties col-3" src="assets/stap6.png" alt="stap6">
+        <div class="col-4 align-content-center">
+            <h1>Stap 6:</h1>
+            <p>Vind uw droomjob!</p>
+        </div>
+    </div>
 </main>
-<footer>
+<footer class="container">
+    <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-2 mb-0 text-body-secondary">&copy; 2023 Job Ahoi</p>
 
+        <ul class="nav col-md-6 justify-content-sm-center">
+            <li class="contact"><i class="fa-solid fa-phone-flip"></i> +32 679 24 42 68</li>
+            <li class="contact"><i class="fa-solid fa-location-dot"></i> Corda Campus | Hasselt</li>
+            <li class="contact"><i class="fa-solid fa-envelope"></i> JobAhoi@gmail.com</li>
+        </ul>
+
+        <ul class="nav col-md-4 justify-content-end">
+            <li class="icons"><i class="fa-brands fa-instagram"></i></li>
+            <li class="icons"><i class="fa-brands fa-square-facebook"></i></li>
+            <li class="icons"><i class="fa-brands fa-linkedin"></i></li>
+            <li class="icons"><i class="fa-brands fa-twitter fa-lg"></i></li>
+        </ul>
+    </div>
 </footer>
 </body>
 </html>
