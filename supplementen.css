@@ -9,8 +9,8 @@ h2 {
     padding-bottom: 10px;
 }
 .iconlogo{
-    width: 100px;
-    height: 80px;
+    width: 67px;
+    height: 120px;
 }
 
 .pakket{
@@ -27,4 +27,13 @@ h2 {
 
 .icons {
     height: 1px;
+}
+
+.color {
+    background-color: #84b8ff;
+    color: white;
+}
+
+.border-color {
+    border: 1px solid #84b8ff;
 }
