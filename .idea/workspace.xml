@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17b086fa-74de-46f1-81f1-e2ea6ac12eae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/Bedrijf1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Bedrijf2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Bedrijf3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/DownloadAppStore_NL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/GooglePlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Icon awesome-arrow-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Icon awesome-star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Icon metro-qrcode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Layer 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Matcher1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Matcher2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Matcher3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scherm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/overons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/logistiekfac.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Bedrijf1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Bedrijf2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Bedrijf3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -89,7 +77,8 @@
       <workItem from="1679989173382" duration="604000" />
       <workItem from="1679991234584" duration="1227000" />
       <workItem from="1681736601462" duration="5581000" />
-      <workItem from="1681800820288" duration="22756000" />
+      <workItem from="1681800820288" duration="23005000" />
+      <workItem from="1682337692361" duration="10577000" />
     </task>
     <servers />
   </component>
