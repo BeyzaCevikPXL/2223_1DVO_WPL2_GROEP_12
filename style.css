@@ -1,84 +1,154 @@
 /* Remove default list styles and set display to inline-block */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'PT Serif', serif;
 }
-p{
+
+p {
     font-family: 'Lato', sans-serif;
 }
+
 /*nav OK */
-.iconlogo{
+.iconlogo {
     width: 120px;
     height: 67px;
 }
-.active{
+
+.active {
     font-weight: bold;
 }
-#registreerbtn{
+
+li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+#registreerbtn {
     background-color: #B2D2FF;
     border-color: #B2D2FF;
     width: 110px;
 }
-#registreerbtn:hover{
+
+#registreerbtn:hover {
     font-weight: bolder;
     background-color: #66a6ff;
 }
-/* intro*/
-.intro{
+
+/* intro OK*/
+.intro {
     background-color: #B2D2FF;
     height: 35vw;
+    position: relative;
 }
-.introtekst{
+.introtekst {
     color: white;
+    position: absolute;
+    right: 15vw;
 }
-.introfoto{
-    width: 349px;
-    height: 405px;
-    margin-top: 8.65vw;
+.vrouwfoto {
+    position: absolute;
+    bottom: 0;
+    left: 10vw;
 }
-.logo{
-    width: 480px;
-    height: 270px;
+.introfoto {
+    width: 90%;
+    height: auto;
 }
-.hoofdtitel{
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.hoofdtitel {
     font-size: 70px;
     font-weight: bolder;
 }
+.hoofdtitel, .kleintitel{
+    text-align: right;
+}
+/*counter OK*/
+.counter{
+    font-size: 25px;
+    font-weight: bold;
+}
+.cijfers{
+    font-size: 150px;
+    padding: 0;
+    margin:0;
+    font-family: 'PT Serif', serif;
+}
 
-/*qr en install */
-.qr{
-    width: 150px;
-    height: 150px;
+/*qr en install OK */
+.tekstcont{
+    text-align: right;
 }
-.googleplay{
-    width: 151px;
-    height: 45px;
+.qr {
+    width: 90%;
+    height: auto;
 }
-.applestore{
-    width: 135px;
-    height: 45px;
+.googleplay {
+    width: 100%;
+    height: auto;
 }
+
+.applestore {
+    width: 100%;
+    height: auto;
+}
+
 /*Hoe */
-.pijl{
+.hwhcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titelh1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.pijl {
     width: 15px;
     height: 15px;
 }
-.hoe{
+.hoe {
     font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
-.hoe:hover{
+
+.hoe:hover {
     font-weight: bolder;
     color: #ED4F4F;
 }
-.scherm{
+
+.scherm {
     width: 340px;
     height: 452px;
     transform: rotate(10deg);
 }
+
 /*mathcmakers*/
-.matchfoto{
+.matchfoto {
     width: 147px;
     height: 162px;
+}
+.matchbtn {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-color: black;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    width: 10%;
+    color: #232C27;
+    text-decoration: none;
+}
+.matchbtn:hover {
+    color: white;
+    font-weight: bolder;
+    background-color: #B2D2FF;
 }
