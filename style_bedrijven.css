@@ -10,3 +10,17 @@
     height: 103px;
 }
 /* Bedrijven tab */
+#bedrijven div a img {
+    width: 280px;
+    height: 225px;
+    padding: 5px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+#bedrijven div a {
+    width: 300px;
+    height: 450px;
+    margin: 0.5rem;
+    background-color: #e4e4e4;
+    border-radius: 50px;
+}
