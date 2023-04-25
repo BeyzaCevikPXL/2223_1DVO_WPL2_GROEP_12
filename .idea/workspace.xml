@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="388dcc49-e245-4799-b5ec-26f32edf48d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_04_2023_16_48_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_04_2023_16_48__Default_Changelist_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/overons.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matchers.html" beforeDir="false" afterPath="$PROJECT_DIR$/matchers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplementen.css" beforeDir="false" afterPath="$PROJECT_DIR$/supplementen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplementen.html" beforeDir="false" afterPath="$PROJECT_DIR$/supplementen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matchers.css" beforeDir="false" afterPath="$PROJECT_DIR$/matchers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overons.html" beforeDir="false" afterPath="$PROJECT_DIR$/overons.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -44,6 +41,7 @@
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/GitHub/2223_1DVO_WPL2_GROEP_12",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -83,7 +81,7 @@
       <workItem from="1682337692361" duration="10577000" />
       <workItem from="1682405523846" duration="8000" />
       <workItem from="1682411075677" duration="625000" />
-      <workItem from="1682421993990" duration="1389000" />
+      <workItem from="1682421993990" duration="4607000" />
     </task>
     <servers />
   </component>
