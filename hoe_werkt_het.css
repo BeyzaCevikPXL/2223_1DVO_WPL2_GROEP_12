@@ -16,3 +16,8 @@
 .illustraties {
     width: 200px;
 }
+@media screen and (max-width: 540px) {
+    .illustraties {
+        display: none;
+    }
+}

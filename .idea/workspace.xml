@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab283a1b-d33f-4ab8-bd8a-13b75af5a8f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/5-stars.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_04_2023_16_48_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_04_2023_16_48__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrijven.html" beforeDir="false" afterPath="$PROJECT_DIR$/bedrijven.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hoe_werkt_het.css" beforeDir="false" afterPath="$PROJECT_DIR$/hoe_werkt_het.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hoe_werkt_het.html" beforeDir="false" afterPath="$PROJECT_DIR$/hoe_werkt_het.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style_bedrijven.css" beforeDir="false" afterPath="$PROJECT_DIR$/style_bedrijven.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682417388335</updated>
-      <workItem from="1682417391981" duration="5617000" />
+      <workItem from="1682417391981" duration="6996000" />
     </task>
     <servers />
   </component>
