@@ -8,6 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
             crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/570fd61456.js" crossorigin="anonymous"></script>
     <script defer src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,82 +37,84 @@
 <!--intro OK -->
 <div class="container-fluid intro">
     <div class="row">
-        <div class="text-end col-xl-4 col-lg-4 col-sm-12">
+        <div class="vrouwfoto col-md-4 col-12">
             <img src="assets/Layer 4.png" alt="vrouw op gsm" class="introfoto"/>
         </div>
-        <div class="text-end col-xl-6 col-lg-6 col-sm-12 mt-5 introtekst">
+        <div class="col-md-4 col-12 mt-5 introtekst">
             <img src="assets/Logo.png" alt="logo" class="logo">
-            <h1>Zet koers naar je</h1>
+            <h1 class="kleintitel">Zet koers naar je</h1>
             <h1 class="hoofdtitel"><i>Droomcariére</i></h1>
         </div>
     </div>
 </div>
+
 <div class="container">
-    <!-- counter -->
-    <div class="container text-center my-5">
+    <!-- counter OK -->
+    <div class="container counter text-center my-5">
         <p>Wij hielpen al</p>
         <p class="cijfers">9885</p>
-        <p>Mensen met het vinden van hun droomjob</p>
+        <p>mensen met het vinden van hun droomjob</p>
     </div>
     <!-- qr en install OK -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="text-center col-2">
+    <div class="container-fluid mt-5">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-2">
                 <img src="assets/Icon%20metro-qrcode.png" alt="qr code" class="qr">
             </div>
-            <div class="col-2">
+            <div class="col-2 socialcont">
                 <a href="https://www.apple.com/benl/app-store/">
-                    <img src="assets/DownloadAppStore_NL.png" alt="Apple Store Link" class="applestore">
+                    <img src="assets/DownloadAppStore_NL.png" alt="Apple Store Link" class="mt-3 applestore">
                 </a>
                 <a href="https://www.googleplay.com/jobahoi">
-                    <img src="assets/GooglePlay.png" alt="Google Play Link" class="googleplay">
+                    <img src="assets/GooglePlay.png" alt="Google Play Link" class="mt-3 googleplay">
                 </a>
             </div>
-            <div class="col-6">
-                <h3>Scan de QR-code of ontdek de Ahoi-app in de <br>
+            <div class="col-6 tekstcont">
+                <h3 class="mt-3"> Scan de QR-code of ontdek de Ahoi-app in de <br>
                     App Store en Google Play.</h3>
             </div>
         </div>
     </div>
     <!-- hoe werkt het OK-->
-    <div class="container-fluid">
-        <h1 class="text-center my-5">Hoe werkt het?</h1>
+    <div class="container-fluid mt-5 mx-5">
         <div class="row">
-            <div class="col-8">
-                <p>Na het aanmaken van je account kan je meteen een eerste gesprek <br>
+            <div class="col-12 col-md-7 hwhcont">
+                <h1 class="titelh1 mb-3">Hoe werkt het?</h1>
+                <p class="teksthwh">Na het aanmaken van je account kan je meteen een eerste gesprek <br>
                     inplannen. Tijdens dit gesprek zal één van onze 'matchers' jouw <br>
-                    persoonlijkheid en interesses matchen met verschillende bedrijven aan de <br>
+                    <i><b>persoonlijkheid en interesses</b></i> matchen met verschillende bedrijven aan de <br>
                     hand van een algoritme.</p>
-                <p>Na je eerste gesprek kan je op de homepagina je matches bekijken. <br>
+                <p class="teksthwh">Na je eerste gesprek kan je op de homepagina je matches bekijken. <br>
                     Hier kan je meer te weten komen over bedrijven en kan je ook contact <br>
                     opnemen als je geïnteresseerd bent!</p>
                 <a href="hoe_werkt_het.html">
                     <button class="btn hoe">Ontdek meer
-                        <img src="assets/Icon awesome-arrow-right.png" alt="pijltje" class="pijl"/></button>
+                        <img src="assets/Icon awesome-arrow-right.png" alt="pijltje" class="pijl"/>
+                    </button>
                 </a>
             </div>
-            <div class="col-4">
+            <div class="text-center col-12 col-md-4">
                 <img src="assets/scherm.png" alt="scherm app" class="scherm"/>
             </div>
         </div>
     </div>
     <!-- matchers OK -->
     <div class="container-fluid">
-        <h1 class="text-center my-5">Onze jobmatchers</h1>
-        <div class="row">
-            <div class="col-3">
-                <img src="assets/Matcher1.png" alt="Matchmaker foto" class="matchfoto" height="324" width="277"/>
+        <h1 class="text-center titelh1 my-5">Onze jobmatchers</h1>
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-3 text-center">
+                <img src="assets/Matcher1.png" alt="Matchmaker foto" class="matchfoto " height="324" width="277"/>
                 <h3>Steven</h3>
                 <p>35 jaar</p>
                 <p>Metaal</p>
             </div>
-            <div class="col-3">
+            <div class="col-3 text-center">
                 <img src="assets/Matcher2.png" alt="Matchmaker foto" class="matchfoto" height="324" width="277"/>
                 <h3>Nathalie</h3>
                 <p>43 jaar</p>
                 <p>Logistiek</p>
             </div>
-            <div class="col-3">
+            <div class="col-3 text-center">
                 <img src="assets/Matcher3.png" alt="Matchmaker foto" class="matchfoto" height="324" width="277"/>
                 <h3>Dirk</h3>
                 <p>29 jaar</p>
@@ -119,18 +122,18 @@
             </div>
         </div>
     </div>
-    <div>
+    <div class="text-center mt-5">
         <a href="matchers.html">
             <button class="btn matchbtn">Bekijk alles</button>
         </a>
     </div>
     <!--Bedrijven-->
     <div class="container ">
-        <h1 class="text-center my-5">Bedrijven</h1>
-        <div class="row">
+        <h1 class="text-center titelh1 my-5">Bedrijven</h1>
+        <div class="row d-flex align-items-center justify-content-center">
             <div class="col-md-3 mb-4">
                 <div class="card" style="height: 380px">
-                    <img src="assets/Bedrijf1.png" class="bedrijf" alt="bedrijf foto"/>
+                    <img src="assets/metaalfac.png" class="bedrijf" alt="bedrijf foto"/>
                     <div class="card-body">
                         <h5 class="card-title">Metalverse</h5>
                         <p>Werkstraat 50, Hasselt</p>
@@ -146,7 +149,7 @@
             </div>
             <div class="col-md-3 mb-4">
                 <div class="card" style="height: 380px">
-                    <img src="assets/Bedrijf2.png" class="bedrijf" alt="bedrijf foto"/>
+                    <img src="assets/logistiekfac.jpg" class="bedrijf" alt="bedrijf foto"/>
                     <div class="card-body">
                         <h5 class="card-title">Logic Hasselt</h5>
                         <p class="adres">Hasseltsesteenweg 850, Genk</p>
@@ -161,7 +164,7 @@
             </div>
             <div class="col-md-3 mb-4">
                 <div class="card" style="height: 380px">
-                    <img src="assets/Bedrijf3.png" class="bedrijf" alt="bedrijf foto"/>
+                    <img src="assets/houtfac.png" class="bedrijf" alt="bedrijf foto"/>
                     <div class="card-body">
                         <h5 class="card-title">Splinter NV</h5>
                         <p class="adres">Oudebaan 75, Houthalen</p>
@@ -176,28 +179,22 @@
     </div>
 </div>
 <!--footer-->
-<footer class="container mx-auto">
-    <hr>
-    <div class="row justify-content-evenly">
-        <div class="row col-4 align-items-center">
-            <a class="col-4" href="#"><img src="" alt="instagram"></a>
-            <a class="col-4" href="#"><img src="" alt="facebook"></a>
-            <a class="col-4" href="#"><img src="" alt="linkedin"></a>
+<footer class="container">
+    <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-12 col-md-2 mb-0 text-body-secondary">&copy; 2023 Job Ahoi</p>
+        <div class="col-12 col-md-6 justify-content-sm-center">
+            <a href="faq.html">FAQ</a>
+            <a href="tel:+32679244268" class="contact"><i class="fa-solid fa-phone-flip"></i> +32 679 24 42 68</a>
+            <a href="https://www.google.com/maps/place/Corda+Campus/@50.951737,5.3524118,15z/data=!4m6!3m5!1s0x47c12142
+            85548b13:0xed3def18ce40a171!8m2!3d50.951737!4d5.3524118!16s%2Fg%2F1pp2wz07_" class="contact">
+                <i class="fa-solid fa-location-dot"></i> Corda Campus | Hasselt</a>
+            <a href="mailto: abc@example.com" class="contact"><i class="fa-solid fa-envelope"></i> JobAhoi@gmail.com</a>
         </div>
-        <p class="col-4"></p>
-        <div class="col-4">
-            <div class="row">
-                <p class="col-6">+32 123 45 67 89</p>
-                <img class="col-6" src="" alt="telefoon_icon">
-            </div>
-            <div class="row">
-                <p class="col-6">JobAhoi@gmail.com</p>
-                <img class="col-6" src="" alt="email_icon">
-            </div>
-            <div class="row">
-                <p class="col-6">Corda Campus |Hasselt</p>
-                <img class="col-6" src="" alt="locatie_icon">
-            </div>
+        <div class="col-12 col-md-4 justify-content-end">
+            <p class="icons"><i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter fa-lg"></i></p>
         </div>
     </div>
 </footer>
