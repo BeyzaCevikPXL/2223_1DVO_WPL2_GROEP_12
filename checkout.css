@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.iconlogo {
+    width: 120px;
+    height: 67px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.color {
+    background-color: #84b8ff;
+    color: white;
+}
+
+.checkoutButton {
+    width: 150px;
+}
+
+
+.line-color {
+    border: 1.5px solid #84b8ff;
+}
+
+.page {
+    padding:100px;
+}

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.iconlogo {
+    width: 120px;
+    height: 67px;
+}
+
+.contact {
+    margin-left: 2rem;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.centreer {
+    display: flex;
+    justify-content: center;
+}
