@@ -144,7 +144,7 @@ li a:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     font-size: 1em;
     width: 10%;
-    color: #232C27;
+    color: #232c27;
     text-decoration: none;
 }
 .matchbtn:hover {
@@ -153,3 +153,25 @@ li a:hover {
     background-color: #B2D2FF;
 }
 /*footer*/
+.contact{
+    text-decoration: none;
+    color: #343a40;
+    font-family: 'Lato', sans-serif;
+}
+.contact:hover{
+    font-weight: bold;
+}
+.linksocial{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw
+}
+.nieuwsbrief{
+    font-size: 0.8em;
+}
+.icons{
+    text-decoration: none;
+    color: #343a40;
+    font-size: 2em;
+    margin: 5px;
+}
