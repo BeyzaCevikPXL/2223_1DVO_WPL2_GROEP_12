@@ -12,3 +12,15 @@
     margin-left: 2rem;
 }
 
+.textLeft {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.centreer {
+    display: flex;
+    justify-content: center;
+}
