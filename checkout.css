@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
-.iconlogo{
+.iconlogo {
     width: 120px;
     height: 67px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.active {
+    font-weight: bold;
 }
 
 .color {
