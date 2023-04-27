@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc2c24c8-c780-4ee0-9a80-86cd85fb890f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account_arbeider.css" beforeDir="false" afterPath="$PROJECT_DIR$/account_arbeider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accountarbeider.html" beforeDir="false" afterPath="$PROJECT_DIR$/accountarbeider.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrijfsprofiel.html" beforeDir="false" afterPath="$PROJECT_DIR$/bedrijfsprofiel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrijven.html" beforeDir="false" afterPath="$PROJECT_DIR$/bedrijven.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hoe_werkt_het.css" beforeDir="false" afterPath="$PROJECT_DIR$/hoe_werkt_het.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hoe_werkt_het.html" beforeDir="false" afterPath="$PROJECT_DIR$/hoe_werkt_het.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style_bedrijven.css" beforeDir="false" afterPath="$PROJECT_DIR$/style_bedrijven.css" afterDir="false" />
-    </list>
+    <list default="true" id="dc2c24c8-c780-4ee0-9a80-86cd85fb890f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
