@@ -2,19 +2,69 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'PT Serif', serif;
 }
-.iconlogo{
-    width: 100px;
-}
-.contact {
-    margin-left: 2rem;
+/*nav*/
+.iconlogo {
+    width: 120px;
+    height: 67px;
 }
 
-.icons {
-    height: 1px;
+.active {
+    font-weight: bold;
+}
+li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+#aanmeldbtn {
+    background-color: #B2D2FF;
+    border-color: #B2D2FF;
+    color: white;
+    font-weight: bold;
+}
+
+#aanmeldbtn:hover {
+    font-weight: bolder;
+    background-color: #66a6ff;
+}
+#registreren{
+    color: black;
+    font-weight: bold;
+}
+#registreren:hover{
+    border-color: black;
+}
+/*main*/
+p{
+    font-family: 'Lato', sans-serif;
 }
 .illustraties {
     width: 200px;
+}
+/*footer*/
+.contact{
+    text-decoration: none;
+    color: #343a40;
+    font-family: 'Lato', sans-serif;
+}
+.contact:hover{
+    font-weight: bold;
+}
+.linksocial{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw
+}
+.nieuwsbrief{
+    font-size: 0.8em;
+}
+.icons{
+    text-decoration: none;
+    color: #343a40;
+    font-size: 2em;
+    margin: 5px;
 }
 @media screen and (max-width: 540px) {
     .illustraties {

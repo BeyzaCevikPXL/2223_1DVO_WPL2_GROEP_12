@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc2c24c8-c780-4ee0-9a80-86cd85fb890f" name="Default Changelist" comment="" />
+    <list default="true" id="dc2c24c8-c780-4ee0-9a80-86cd85fb890f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_arbeider.css" beforeDir="false" afterPath="$PROJECT_DIR$/account_arbeider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accountarbeider.html" beforeDir="false" afterPath="$PROJECT_DIR$/accountarbeider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bedrijfsprofiel.html" beforeDir="false" afterPath="$PROJECT_DIR$/bedrijfsprofiel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bedrijven.html" beforeDir="false" afterPath="$PROJECT_DIR$/bedrijven.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hoe_werkt_het.css" beforeDir="false" afterPath="$PROJECT_DIR$/hoe_werkt_het.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hoe_werkt_het.html" beforeDir="false" afterPath="$PROJECT_DIR$/hoe_werkt_het.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style_bedrijven.css" beforeDir="false" afterPath="$PROJECT_DIR$/style_bedrijven.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,8 +47,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.bedrijfsprofiel.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="accountarbeider.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/accountarbeider.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="bedrijfsprofiel.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/bedrijfsprofiel.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="hoe_werkt_het.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/hoe_werkt_het.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/index.html" useBuiltInWebServerPort="true">
@@ -45,8 +62,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.bedrijfsprofiel.html" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.bedrijfsprofiel.html" />
+        <item itemvalue="JavaScript Debug.accountarbeider.html" />
+        <item itemvalue="JavaScript Debug.hoe_werkt_het.html" />
       </list>
     </recent_temporary>
   </component>
