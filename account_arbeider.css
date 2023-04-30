@@ -1,0 +1,106 @@
+/* Remove default list styles and set display to inline-block */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+/*nav*/
+.iconlogo {
+    width: 120px;
+    height: 67px;
+}
+
+.active {
+    font-weight: bold;
+}
+li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+#aanmeldbtn {
+    background-color: #B2D2FF;
+    border-color: #B2D2FF;
+    color: white;
+    font-weight: bold;
+}
+
+#aanmeldbtn:hover {
+    font-weight: bolder;
+    background-color: #66a6ff;
+}
+#registreren{
+    color: black;
+    font-weight: bold;
+}
+#registreren:hover{
+    border-color: black;
+}
+/*main*/
+#steven_willekes {
+    width: 300px;
+}
+/*buttons*/
+.afmelden{
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 20px;
+    background-color: white;
+    border-color: #ED4F4F;
+    border-width: medium;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    text-decoration: none;
+    color: #ED4F4F;
+    font-weight: bold;
+}
+.verwijderen{
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 20px;
+    background-color: #ED4F4F;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.fa-sign-out{
+    font-size: 20px;
+}
+.verwijderen:hover, .afmelden:hover{
+    background-color: #a21111;
+    color: white;
+}
+/*footer*/
+.contact{
+    text-decoration: none;
+    color: #343a40;
+    font-family: 'Lato', sans-serif;
+}
+.contact:hover{
+    font-weight: bold;
+}
+.linksocial{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw
+}
+.nieuwsbrief{
+    font-size: 0.8em;
+}
+.icons{
+    text-decoration: none;
+    color: #343a40;
+    font-size: 2em;
+    margin: 5px;
+}
