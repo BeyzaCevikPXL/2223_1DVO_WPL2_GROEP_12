@@ -18,21 +18,28 @@ p {
 .active {
     font-weight: bold;
 }
-
 li a:hover {
     color: black;
     font-weight: bold;
 }
 
-#registreerbtn {
+#aanmeldbtn {
     background-color: #B2D2FF;
     border-color: #B2D2FF;
-    width: 110px;
+    color: white;
+    font-weight: bold;
 }
 
-#registreerbtn:hover {
+#aanmeldbtn:hover {
     font-weight: bolder;
     background-color: #66a6ff;
+}
+#registreren{
+    color: black;
+    font-weight: bold;
+}
+#registreren:hover{
+    border-color: black;
 }
 
 h2 {
@@ -62,10 +69,6 @@ a{
 
 .contact {
     margin-left: 2rem;
-}
-
-.icons {
-    height: 1px;
 }
 
 .color {
