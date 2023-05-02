@@ -42,8 +42,15 @@ li a:hover {
     border-color: black;
 }
 /*main*/
+#kader {
+    box-shadow: 5px 5px 5px 5px rgba(108, 117, 125, 0.74);
+}
 #steven_willekes {
     width: 300px;
+}
+#volledigenaam {
+text-align: center;
+    font-size: 50px;
 }
 /*buttons*/
 .afmelden{
