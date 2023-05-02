@@ -64,7 +64,7 @@ a{
 }
 
 .toppakket{
-    height: 20rem;
+    height: 21rem;
 }
 
 .contact {
@@ -76,9 +76,17 @@ a{
     color: white;
 }
 
+.color:hover {
+    background-color: #66a6ff;
+    color: white;
+}
+
 .border-color {
     border: 1px solid #84b8ff;
 }
+
+
+
 
 /*footer*/
 .contact{
