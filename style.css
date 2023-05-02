@@ -14,12 +14,16 @@ h4{
 }
 /*nav OK */
 .iconlogo {
-    width: 120px;
-    height: 67px;
+    width: 60px;
+    height: 60px;
 }
 
 .active {
     font-weight: bold;
+}
+li a{
+    color: #6b6c72;
+    margin-left: 2rem;
 }
 li a:hover {
     color: black;
@@ -138,20 +142,19 @@ li a:hover {
 }
 
 /*mathcmakers*/
-.matchfoto {
-    width: 147px;
-    height: 162px;
+.card{
+ border-radius: 0.375rem;
 }
 .matchbtn {
     display: inline-block;
     padding: 0.35em 1.2em;
     margin: 0 0.3em 0.3em 0;
     border-color: black;
-    border-radius: 20px;
+    border-radius: 0.375rem;
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     font-size: 1em;
-    width: 10%;
+    width: 12%;
     color: #232c27;
     text-decoration: none;
 }
@@ -159,6 +162,11 @@ li a:hover {
     color: white;
     font-weight: bolder;
     background-color: #B2D2FF;
+}
+/*bedrijf*/
+.bedrijf{
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
 }
 /*footer*/
 .contact{
