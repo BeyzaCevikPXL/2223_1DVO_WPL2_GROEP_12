@@ -16,7 +16,7 @@ p {
 }
 
 .active {
-    font-weight: bold;
+    font-weight: bold !important;
 }
 li a:hover {
     color: black;
