@@ -1,11 +1,45 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: 'PT Serif', serif;
 }
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+/*nav OK */
 .iconlogo {
     width: 120px;
     height: 67px;
+}
+
+.active {
+    font-weight: bold;
+}
+li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+#aanmeldbtn {
+    background-color: #B2D2FF;
+    border-color: #B2D2FF;
+    color: white;
+    font-weight: bold;
+}
+
+#aanmeldbtn:hover {
+    font-weight: bolder;
+    background-color: #66a6ff;
+}
+#registreren{
+    color: black;
+    font-weight: bold;
+}
+#registreren:hover{
+    border-color: black;
 }
 
 .contact {
@@ -23,4 +57,28 @@
 .centreer {
     display: flex;
     justify-content: center;
+}
+
+/*footer*/
+.contact{
+    text-decoration: none;
+    color: #343a40;
+    font-family: 'Lato', sans-serif;
+}
+.contact:hover{
+    font-weight: bold;
+}
+.linksocial{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw
+}
+.nieuwsbrief{
+    font-size: 0.8em;
+}
+.icons{
+    text-decoration: none;
+    color: #343a40;
+    font-size: 2em;
+    margin: 5px;
 }

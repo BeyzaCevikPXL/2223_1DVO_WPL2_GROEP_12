@@ -9,7 +9,9 @@
 p {
     font-family: 'Lato', sans-serif;
 }
-
+h4{
+    font-weight: bold;
+}
 /*nav OK */
 .iconlogo {
     width: 120px;
@@ -19,23 +21,29 @@ p {
 .active {
     font-weight: bold;
 }
-
 li a:hover {
     color: black;
     font-weight: bold;
 }
 
-#registreerbtn {
+#aanmeldbtn {
     background-color: #B2D2FF;
     border-color: #B2D2FF;
-    width: 110px;
+    color: white;
+    font-weight: bold;
 }
 
-#registreerbtn:hover {
+#aanmeldbtn:hover {
     font-weight: bolder;
     background-color: #66a6ff;
 }
-
+#registreren{
+    color: black;
+    font-weight: bold;
+}
+#registreren:hover{
+    border-color: black;
+}
 /* intro OK*/
 .intro {
     background-color: #B2D2FF;
@@ -74,7 +82,7 @@ li a:hover {
     font-weight: bold;
 }
 .cijfers{
-    font-size: 150px;
+    font-size: 125px;
     padding: 0;
     margin:0;
     font-family: 'PT Serif', serif;
@@ -144,7 +152,7 @@ li a:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     font-size: 1em;
     width: 10%;
-    color: #232C27;
+    color: #232c27;
     text-decoration: none;
 }
 .matchbtn:hover {
@@ -153,3 +161,25 @@ li a:hover {
     background-color: #B2D2FF;
 }
 /*footer*/
+.contact{
+    text-decoration: none;
+    color: #343a40;
+    font-family: 'Lato', sans-serif;
+}
+.contact:hover{
+    font-weight: bold;
+}
+.linksocial{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw
+}
+.nieuwsbrief{
+    font-size: 0.8em;
+}
+.icons{
+    text-decoration: none;
+    color: #343a40;
+    font-size: 2em;
+    margin: 5px;
+}

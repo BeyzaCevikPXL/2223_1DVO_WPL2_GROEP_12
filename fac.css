@@ -42,30 +42,52 @@ li a:hover {
     border-color: black;
 }
 
-.active {
-    font-weight: bold;
+.contact {
+    margin-left: 2rem;
 }
 
-.active {
-    font-weight: bold;
+input{
+    width: 17rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid #84b8ff;
+    height: 2.5rem;
+    padding-left: 20px;
+    color: gray;
 }
 
-.color {
+.zoekbutton {
+    border: 2px solid #84b8ff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 2.5rem;
+    width: 3rem;
     background-color: #84b8ff;
     color: white;
 }
 
-.checkoutButton {
-    width: 150px;
+.breedte {
+    width: 60%;
+    margin-top: 5rem;
 }
 
-
-.line-color {
-    border: 1.5px solid #84b8ff;
+.centreer {
+    display: flex;
+    justify-content: center;
 }
 
-.page {
-    padding:100px;
+.accordion-button::after {
+    background-image: url("./assets/plus.png");
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("./assets/min.png");
+}
+
+.accordion-item{
+    border: none;
+    border-bottom: 2px solid #84b8ff;
+    border-radius: 0 !important;
+    padding-top: 20px;
 }
 
 /*footer*/
@@ -83,7 +105,7 @@ li a:hover {
     gap: 2vw
 }
 .nieuwsbrief{
-    font-size: 0.8em;
+    font-size: 0.8rem;
 }
 .icons{
     text-decoration: none;
@@ -91,3 +113,6 @@ li a:hover {
     font-size: 2em;
     margin: 5px;
 }
+
+
+

@@ -1,10 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Matchers</title>
+    <!--    <link rel="stylesheet" href="bootstrap/bootstrap-reboot.min.css">-->
+    <!--    <link rel="stylesheet" href="bootstrap/bootstrap-grid.min.css">-->
+    <script defer src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/570fd61456.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="fac.css">
 </head>
 <body>
+<header class="p-3 outline-dark" id="navigatiebar">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="index.html"> <img src="assets/Icon.png" alt="icontje" class="iconlogo"></a>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="index.html" class="nav-link px-2 text-dark">Home</a></li>
+                <li><a href="hoe_werkt_het.html" class="nav-link px-2 text-dark">Hoe werkt het?</a></li>
+                <li><a href="bedrijven.html" class="nav-link px-2 text-dark">Bedrijven</a></li>
+                <li><a href="matchers.html" class="nav-link px-2 text-dark">Matchers</a></li>
+                <li><a href="supplementen.html" class="nav-link px-2 text-dark">Supplementen</a></li>
+                <li><a href="overons.html" class="nav-link px-2 text-dark">Over ons</a></li>
+            </ul>
+            <div class="text-end btns">
+                <button type="button" class="btn" id="registreren">Registreren</button>
+                <button type="button" class="btn" id="aanmeldbtn">Aanmelden</button>
+            </div>
+        </div>
+    </div>
+</header>
 
+
+<div class="">
+    <h1 class="text-center my-5">Veel gestelde vragen</h1>
+    <p class="text-center text-muted">Vragen? Wij zijn er om te helpen!</p>
+    <div class="centreer ">
+            <input name="search" value="Zoeken"><br><br>
+            <button class="zoekbutton"><i class="fas fa-search"></i></button>
+    </div>
+</div>
+
+<div class="centreer">
+    <div class="accordion breedte" id="accordionExample">
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="test accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Hoe werkt de app?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Aan de hand van persoonlijke gesprekken met onze jobmatchers, gaan wij je matchen aan verschillende bedrijven die bij je persoonlijkheid passen om zo
+                    je droomjob te vinden!
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Hoe maak ik als bedrijf een account aan?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Als je een bedrijfspagina wilt kan je bij de 'registreer' pagina de knop aanduiden en dan maken wij voor jouw een bedrijfsaccount aan!
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Is een afspraak met een matcher verplicht?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Het is verplicht om minstens één afspraak te maken met een matcher. tijdens dit gesprek zal de matcher je persoonlijkheid, gedrag, passies, enzovoort bekijken en
+                    je aan de hand hiervan matchen aan bedrijven! Indien je betere matches wilt kan je altijd extra afspraken maken!
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Wat zijn supplementen?
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                Supplementen zijn extra's die bedrijven zich kunnen aanschaffen om hun gebruik van de 'Job Ahoi' app te verbeteren.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Moet ik een account aanmaken?
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Het is nodig om een account aan te maken indien u de app wilt gebruiken om te matchen met bedrijven en/of als u supplementen wilt aankopen.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="container">
+    <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-12 col-md-2 mb-0 text-body-secondary">&copy; 2023 Job Ahoi</p>
+        <div class="col-12 col-md-8">
+            <a href="faq.html" class="active contact d-flex align-items-center justify-content-center">FAQ</a>
+            <div class="linksocial d-flex align-items-center justify-content-center">
+                <a href="tel:+32679244268" class="contact"><i class="fa-solid fa-phone-flip mx-2"></i> +32 679 24 42 68</a>
+                <a href="https://www.google.com/maps/place/Corda+Campus/@50.951737,5.3524118,15z/data=!4m6!3m5!1s0x47c12142
+            85548b13:0xed3def18ce40a171!8m2!3d50.951737!4d5.3524118!16s%2Fg%2F1pp2wz07_" class="contact">
+                    <i class="fa-solid fa-location-dot mx-2"></i>Corda Campus | Hasselt</a>
+                <a href="mailto: JobAhoi@gmail.com" class="contact"><i class="fa-solid fa-envelope mx-2"></i>
+                    JobAhoi@gmail.com</a>
+            </div>
+        </div>
+        <div class="col-12 col-md-2">
+            <div class="d-flex align-items-center justify-content-center">
+                <a href="https://www.instagram.com/jobahoi" class="icons"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/jobahoi" class="icons"><i
+                        class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.linkedin.com/jobahoi" class="icons"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.twitter.com/jobahoi" class="icons"><i class="fa-brands fa-twitter fa-lg"></i></a>
+            </div>
+            <div>
+                <a href="">
+                    <button class="btn nieuwsbrief">Blijf op de hoogte via onze nieuwsbrief
+                        <img src="assets/Icon awesome-arrow-right.png" alt="pijltje" class="pijl"/>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

@@ -1,3 +1,4 @@
+/* Remove default list styles and set display to inline-block */
 * {
     padding: 0;
     margin: 0;
@@ -8,8 +9,7 @@
 p {
     font-family: 'Lato', sans-serif;
 }
-
-/*nav OK */
+/*nav*/
 .iconlogo {
     width: 120px;
     height: 67px;
@@ -41,33 +41,46 @@ li a:hover {
 #registreren:hover{
     border-color: black;
 }
-
-.active {
+/*main*/
+#steven_willekes {
+    width: 300px;
+}
+/*buttons*/
+.afmelden{
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 20px;
+    background-color: white;
+    border-color: #ED4F4F;
+    border-width: medium;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    text-decoration: none;
+    color: #ED4F4F;
     font-weight: bold;
 }
-
-.active {
+.verwijderen{
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 20px;
+    background-color: #ED4F4F;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
     font-weight: bold;
 }
-
-.color {
-    background-color: #84b8ff;
+.fa-sign-out{
+    font-size: 20px;
+}
+.verwijderen:hover, .afmelden:hover{
+    background-color: #a21111;
     color: white;
 }
-
-.checkoutButton {
-    width: 150px;
-}
-
-
-.line-color {
-    border: 1.5px solid #84b8ff;
-}
-
-.page {
-    padding:100px;
-}
-
 /*footer*/
 .contact{
     text-decoration: none;
