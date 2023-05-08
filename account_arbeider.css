@@ -52,6 +52,9 @@ li a:hover {
 text-align: center;
     font-size: 50px;
 }
+#bewerken a img {
+    width: 50px;
+}
 /*buttons*/
 .afmelden{
     display: inline-block;
