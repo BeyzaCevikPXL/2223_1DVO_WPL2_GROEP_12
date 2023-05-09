@@ -22,12 +22,11 @@ h4{
     font-weight: bold;
 }
 li a{
-    color: #6b6c72;
+    color: black;
     margin-left: 2rem;
 }
 li a:hover {
-    color: black;
-    font-weight: bold;
+    color: #499aea !important;
 }
 
 #aanmeldbtn {
