@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.socialmedia {
+    width: 100px;
+}
+#inloggen form fieldset {
+    border-top: 1px solid #86C3FD;
+}
+#inloggen form fieldset legend {
+    color: #86C3FD;
+    text-align: center;
+}
+#email_inloggen, #ww_inloggen {
+    color: #5b6267;
+    background-color: #EDEDED;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+#registreer_hier, #ww_vergeten {
+    text-align: end;
+}
+#log_in {
+    color: #fff;
+    background-color: rgba(132, 184, 255, 0.63);
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+#registreer_hier a, #ww_vergeten {
+    color: #86C3FD;
+    text-decoration: none;
+}
+#inloggen div img {
+    width: 525px;
+}
