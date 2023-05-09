@@ -2,32 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Registreren</title>
+    <title>Inloggen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/570fd61456.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="registreren.css">
+    <script defer src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<nav>
-    <section>
-        <a href="index.html"><img src="assets/Kompas.png" alt="logo_klein"></a>
-        <a href="hoe_werkt_het.html"></a>
-        <a href="bedrijven.html"></a>
-        <a href="matchers.html"></a>
-        <a href="supplementen.html"></a>
-    </section>
-    <section>
-        <a href="registreren.html"></a>
-        <a href="aanmelden.html"></a>
-        <a href=""></a>
-        <a href="accountarbeider.html"><img src="" alt="account"></a>
-    </section>
-</nav>
-<header>
-
-</header>
-<main>
-
+<main id="registreren" class="row justify-content-center">
+    <div class="row justify-content-center">
+        <img src="assets/LOGO_JOB_AHOI_FINAL-02.png" alt="Logo" class="col-6">
+    </div>
+    <form method="post" target="_self" autocomplete="off" name="inloggen" class="col-3 justify-content-center">
+        <input type="text" id="voornaam_registreren" name="voornaam" value="Voornaam" required class="col-12 my-3">
+        <input type="text" id="achternaam_registreren" name="achternaam" value="Achternaam" required class="col-12">
+        <input type="email" id="email_registreren" name="email" value="E-mail" required class="col-12 my-3">
+        <input type="password" id="ww1_registreren" name="wachtwoord" value="Wachtwoord" minlength="8" required
+               class="col-12">
+        <input type="password" id="ww2_registreren" name="wachtwoord" value="Wachtwoord" minlength="8" required
+               class="col-12 my-3">
+        <div class="col-12 row justify-content-between mx-auto">
+            <input class="col-1" type="radio" id="akkoord_registreren" name="akkoord">
+            <label id="tekst_akkoord_registreren" class="col-11" for="akkoord_registreren">Ik ben tenminste 18 jaar oud en ga akkoord met de volgende terms:<br>Door
+                op verdergaan te klikken. Hebt u de TOS gelezen en mee akkoord gegaan</label>
+        </div>
+        <input type="button" value="Verder gaan" id="registreer" class="col-12 mt-3">
+    </form>
 </main>
-<footer>
-
-</footer>
 </body>
 </html>

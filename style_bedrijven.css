@@ -5,19 +5,24 @@
     box-sizing: border-box;
     font-family: 'PT Serif', serif;
 }
-/* Remove default list styles and set display to inline-block */
+h2{
+    font-weight: bold;
+}
 /*nav*/
 .iconlogo {
-    width: 120px;
-    height: 67px;
+    width: 60px;
+    height: 60px;
 }
 
 .active {
     font-weight: bold;
 }
-li a:hover {
+li a{
     color: black;
-    font-weight: bold;
+    margin-left: 2rem;
+}
+li a:hover {
+    color: #499aea !important;
 }
 
 #aanmeldbtn {
@@ -39,53 +44,16 @@ li a:hover {
     border-color: black;
 }
 /* Bedrijven tab */
-#bedrijven div a img {
-    width: 300px;
-    height: 225px;
-    margin: 0.5rem 0.5rem 0 0.5rem;
+.bedrijf{
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
 }
-#bedrijven div a.link section {
-    width: 300px;
-    height: 200px;
-    border: 2px solid #e4e4e4;
-    margin: 0 0.5rem 0.5rem 0.5rem;
-}
-#bedrijven div a.link section h2 {
-    color: #3B3B3B;
-    font-family: "PT Serif", serif;
-    font-weight: 700;
-    padding: 1rem 0 0 1.5rem;
-    font-size: 35px;
-}
-#bedrijven div a.link {
-    text-decoration: none;
-}
-#bedrijven div a.link section p {
-    color: #3B3B3B;
-    font-family: "PT Serif", serif;
-    padding-left: 1.5rem;
-}
-#bedrijven div a.link section img {
-    width: 150px;
-    height: 25px;
-    margin: 0;
-    padding-left: 1rem;
-    position: relative;
-    bottom: 1.5rem;
-}
-#bedrijven div a.link section p.adres {
-    position: relative;
-    bottom: 0.7rem;
-    font-family: Lato, sans-serif;
+.adres{
     font-style: italic;
+    font-size: 15px;
 }
-#bedrijven div a.link section p.soort {
-    position: relative;
-    bottom: 1rem;
-    font-size: 22px;
-    font-family: Lato, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
+.card-text{
+    font-weight: bold;
 }
 /*footer*/
 .contact{
