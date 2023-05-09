@@ -22,12 +22,11 @@ h4{
     font-weight: bold;
 }
 li a{
-    color: #6b6c72;
+    color: black;
     margin-left: 2rem;
 }
 li a:hover {
-    color: black;
-    font-weight: bold;
+    color: #499aea !important;
 }
 
 #aanmeldbtn {
@@ -168,6 +167,11 @@ li a:hover {
     border-top-left-radius: 0.375rem;
     border-top-right-radius: 0.375rem;
 }
+.adres{
+    font-style: italic;
+    font-size: 15px;
+}
+
 /*footer*/
 .contact{
     text-decoration: none;
