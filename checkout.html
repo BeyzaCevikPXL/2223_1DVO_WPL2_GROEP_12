@@ -36,10 +36,9 @@
 
 <div class="container page">
   <div class="row">
-    <div class="col-md-4 order-md-2 mb-4">
+    <div class="col-md-4 order-md-2 mt-3">
       <h4 class="d-flex justify-content-between align-items-center mb-3">
-        <span class="text-muted">Bestelling</span>
-        <span class="badge badge-secondary badge-pill">3</span>
+        <span class="text-muted">Overzicht</span>
       </h4>
       <ul class="line-color list-group mb-3">
         <li class="line-color list-group-item d-flex justify-content-between lh-condensed">
@@ -63,48 +62,130 @@
     </div>
 
     <div class="col-md-8 order-md-1">
-      <form class="needs-validation" novalidate>
-        <div class="row">
-          <div class="col-md-6 mb-3">
-            <label for="naam">Naam kaarthouder</label>
-            <input type="text" class="form-control" id="naam" placeholder="" required>
-            <small class="text-muted">Volledige naam kaarthouder</small>
-            <div class="invalid-feedback">
-              Naam op de kaart is verplicht!
-            </div>
+      <h1 class="titelh1 mb-3">Winkelwagen</h1>
+      <div class="row">
+
+        <div class="d-flex align-items-center">
+          <div class="flex-grow-1">
+            <ul class="product-line-color list-group mb-3">
+              <li class="list-group-item d-flex justify-content-between lh-condensed">
+                <div>
+                  <h6 class="my-0">Product naam</h6>
+                  <small class="text-muted">
+                    korte beschrijving <br>
+                    voordeel1 <br>
+                    voordeel2 <br>
+                    voordeel3 <br>
+                  </small>
+                </div>
+                <div class="vstack gap-4 align-items-end">
+                  <div><i class="fa-solid fa-x"></i></div>
+                  <div><h4>€22,00</h4></div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6 mb-3">
-            <label for="kaart-nummer">Credit card number</label>
-            <input type="text" class="form-control" id="kaart-nummer" placeholder="" required>
-            <div class="invalid-feedback">
-              Credit card nummer is verplicht!
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3 mb-3">
-            <label for="vervaldatum">Vervaldatum</label>
-            <input type="text" class="form-control" id="vervaldatum" placeholder="" required>
-            <div class="invalid-feedback">
-              Vervaldatum is verplicht!
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="cvv">CVV</label>
-            <input type="text" class="form-control" id="cvv" placeholder="" required>
-            <div class="invalid-feedback">
-              Beveiligingscode is verplicht!
-            </div>
+
+
+        <div class="d-flex align-items-center">
+          <div class="flex-grow-1">
+            <ul class="product-line-color list-group mb-3">
+              <li class="list-group-item d-flex justify-content-between lh-condensed">
+                <div>
+                  <h6 class="my-0">Product naam</h6>
+                  <small class="text-muted">
+                    korte beschrijving <br>
+                    voordeel1 <br>
+                    voordeel2 <br>
+                    voordeel3 <br>
+                  </small>
+                </div>
+                <div class="vstack gap-4 align-items-end">
+                  <div><i class="fa-solid fa-x"></i></div>
+                  <div><h4>€22,00</h4></div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
         <hr class="mb-4 line-color">
-        <button class="btn color btn-lg btn-block checkoutButton"  type="submit">Checkout</button>
-      </form>
+        </div>
     </div>
   </div>
+
+
+
+  <div class="row mt-3">
+    <form class="needs-validation" novalidate>
+      <h1 class="titelh1 mb-3">Gegevens</h1>
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <label for="naam">Naam</label>
+          <input type="text" class="form-control" id="naam" placeholder="" required>
+<!--          <small class="text-muted">achternaam</small>-->
+          <div class="invalid-feedback">
+            Vul je achternaam in!
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="voornaam">voornaam</label>
+          <input type="text" class="form-control" id="voornaam" placeholder="" required>
+
+          <div class="invalid-feedback">
+            Vul je voornaam in!
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="telefoonnummer">Telefoonnummer</label>
+          <input type="text" class="form-control" id="telefoonnummer" placeholder="" required>
+          <div class="invalid-feedback">
+            Telefoonnummer is verplicht!
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="mail">E-mail</label>
+          <input type="text" class="form-control" id="mail" placeholder="" required>
+          <div class="invalid-feedback">
+            Vul een geldig E-mail adres in!
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="gemeente">Gemeente</label>
+          <input type="text" class="form-control" id="gemeente" placeholder="" required>
+          <div class="invalid-feedback">
+            Gemeente is verplicht!
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <label for="straat">Straat</label>
+          <input type="text" class="form-control" id="straat" placeholder="" required>
+          <div class="invalid-feedback">
+            Straatnaam is verplicht!
+          </div>
+        </div>
+        <div class="col-md-2 mb-3">
+          <label for="huisnummer">Huisnummer</label>
+          <input type="text" class="form-control" id="huisnummer" placeholder="" required>
+          <div class="invalid-feedback">
+            Huisnummer is verplicht!
+          </div>
+        </div>
+      </div>
+      <hr class="mb-4 line-color">
+      <button class="btn color btn-lg btn-block checkoutButton"  type="submit">Checkout</button>
+    </form>
+  </div>
 </div>
+
 
 
 <footer class="container">
