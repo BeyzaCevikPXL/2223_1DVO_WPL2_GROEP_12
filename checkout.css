@@ -64,9 +64,16 @@ li a:hover {
     border: 1.5px solid #84b8ff;
 }
 
+.product-line-color {
+    border: 2px solid #84b8ff;
+    border-radius: 5px;
+}
+
 .page {
     padding:100px;
 }
+
+
 
 /*footer*/
 .contact{
