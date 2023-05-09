@@ -14,19 +14,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<main>
-    <img src="assets/LOGO_JOB_AHOI_FINAL-02.png" alt="Logo">
-    <form>
-        <input type="email" id="email_inloggen" name="email" value="email">
-        <input type="password" id="ww_inloggen" name="wachtwoord" value="wachtwoord">
-        <a href="#">Wachtwoord vergeten?</a>
-        <input type="button" value="Log in">
-        <label>Nog geen account? <a href="registreren.html">Registreer hier.</a></label>
-        <fieldset>
-            <legend>OF LOG IN MET</legend>
-            <label><a href="#"><img src="assets/google.png" alt="google"></a></label>
-            <label><a href="#"><img src="assets/apple.png" alt="apple"></a></label>
-            <label><a href="#"><img src="assets/facebook.png" alt="facebook"></a></label>
+<main id="inloggen" class="row justify-content-center">
+    <div class="row justify-content-center">
+        <img src="assets/LOGO_JOB_AHOI_FINAL-02.png" alt="Logo" class="col-6">
+    </div>
+    <form method="post" target="_self" autocomplete="off" name="inloggen" class="col-3 justify-content-center">
+        <input type="email" id="email_inloggen" name="email" value="email"class="col-12 my-3">
+        <input type="password" id="ww_inloggen" name="wachtwoord" value="wachtwoord" minlength="8" class="col-12">
+        <a href="#" id="ww_vergeten" class="col-12 row justify-content-end">Wachtwoord vergeten?</a>
+        <input type="button" value="Log in" id="log_in" class="col-12 mt-3">
+        <label class="col-12" id="registreer_hier">Nog geen account? <a href="registreren.html">Registreer hier.</a></label>
+        <fieldset class="mx-auto my-3 col-12 justify-content-between row">
+            <legend class="col-12">OF LOG IN MET</legend>
+            <label class="col-4"><a href="#"><img class="socialmedia" src="assets/google.png" alt="google"></a></label>
+            <label class="col-4"><a href="#"><img class="socialmedia" src="assets/apple.png" alt="apple"></a></label>
+            <label class="col-4"><a href="#"><img class="socialmedia" src="assets/facebook.png" alt="facebook"></a></label>
         </fieldset>
     </form>
 </main>
