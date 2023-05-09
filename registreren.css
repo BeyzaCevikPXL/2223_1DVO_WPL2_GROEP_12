@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#voornaam_registreren, #achternaam_registreren, #email_registreren, #ww1_registreren, #ww2_registreren {
+    color: #5b6267;
+    background-color: #EDEDED;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+#registreer {
+    color: #fff;
+    background-color: rgba(132, 184, 255, 0.63);
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+#registreren div img {
+    width: 525px;
+}
+#akkoord_registreren {
+    width: 15px;
+}
+#tekst_akkoord_registreren {
+    font-size: 12px;
+}

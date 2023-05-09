@@ -11,12 +11,16 @@ p {
 
 /*nav OK */
 .iconlogo {
-    width: 120px;
-    height: 67px;
+    width: 60px;
+    height: 60px;
 }
 
 .active {
     font-weight: bold;
+}
+li a{
+    color: #6b6c72;
+    margin-left: 2rem;
 }
 li a:hover {
     color: black;
@@ -55,25 +59,28 @@ li a:hover {
     color: white;
 }
 
+.color:hover {
+    background-color: #66a6ff;
+    color: white;
+}
+
 .checkoutButton {
     width: 150px;
 }
 
-
-.line-color {
-    border: 1.5px solid #84b8ff;
+h1{
+    text-align: center;
 }
 
-.product-line-color {
-    border: 2px solid #84b8ff;
-    border-radius: 5px;
+.form-button {
+    width: 200px;
+    height: 45px;
 }
 
-.page {
-    padding:100px;
+.form-opmaak {
+    background-color: #EDEDED;
+    border: none;
 }
-
-
 
 /*footer*/
 .contact{
@@ -97,4 +104,12 @@ li a:hover {
     color: #343a40;
     font-size: 2em;
     margin: 5px;
+}
+
+.temp{
+    border: 1px solid red;
+}
+
+.breedte{
+    width: 100%;
 }
