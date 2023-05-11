@@ -11,35 +11,58 @@ p {
 
 /*nav OK */
 .iconlogo {
-    width: 120px;
-    height: 67px;
+    width: 60px;
+    height: 60px;
 }
 
 .active {
-    font-weight: bold;
+    font-weight: bold !important;
+}
+#navigatiebar{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+
+}
+li a{
+    color: black;
+    margin-left: 2rem;
+    transition: transform 0.3s ease-in-out;
+
 }
 li a:hover {
-    color: black;
-    font-weight: bold;
+    color: #499aea !important;
+    transform: scale(1.1);
+
 }
 
 #aanmeldbtn {
-    background-color: #B2D2FF;
-    border-color: #B2D2FF;
+    background-color: #FFA500;
+    border-color: #FFA500;
     color: white;
     font-weight: bold;
+    transition: transform 0.3s ease-in-out;
 }
 
 #aanmeldbtn:hover {
     font-weight: bolder;
-    background-color: #66a6ff;
+    transform: scale(1.1);
+
 }
 #registreren{
     color: black;
     font-weight: bold;
+    transition: transform 0.3s ease-in-out;
 }
 #registreren:hover{
-    border-color: black;
+    color: #FFA500;
+    transform: scale(1.1);
+}
+.fa-cart-shopping{
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+}
+.fa-cart-shopping:hover{
+    color: #FFA500;
 }
 
 .contact {

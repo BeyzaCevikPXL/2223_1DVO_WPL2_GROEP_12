@@ -91,6 +91,10 @@ h1{
 .form-opmaak {
     background-color: #EDEDED;
     border: none;
+    cursor: text;
+}
+#persoon{
+    cursor: pointer;
 }
 
 /*footer*/
