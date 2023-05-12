@@ -127,7 +127,16 @@ li a:hover {
     width: 100%;
     height: auto;
 }
-
+.geelbolletje{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+.blauwbolletje{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
 /*Hoe */
 .hwhcont{
     display: flex;
@@ -164,22 +173,27 @@ li a:hover {
  border-radius: 0.375rem;
 }
 .matchbtn {
+    background-color: #FFA500;
+    border-color: #FFA500;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
     display: inline-block;
     padding: 0.35em 1.2em;
     margin: 0 0.3em 0.3em 0;
-    border-color: black;
     border-radius: 0.375rem;
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     font-size: 1em;
     width: 12%;
-    color: #232c27;
     text-decoration: none;
 }
 .matchbtn:hover {
+    background-color: #FFA500;
+    border-color: #FFA500;
     color: white;
     font-weight: bolder;
-    background-color: #B2D2FF;
+    transform: scale(1.1);
 }
 /*bedrijf*/
 .bedrijf{
