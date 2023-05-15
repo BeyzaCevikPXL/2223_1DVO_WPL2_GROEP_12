@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8a857813-647b-430e-aadc-e2f540dee5cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrijven.html" beforeDir="false" afterPath="$PROJECT_DIR$/bedrijven.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Icon metro-qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Layer 4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Layer 4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scherm.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scherm.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -27,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Portfolio" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
