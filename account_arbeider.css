@@ -66,15 +66,14 @@ li a:hover {
 }
 /*main*/
 #kader {
-    box-shadow: 5px 5px 5px 5px rgba(108, 117, 125, 0.74);
+    box-shadow: 0 0 5px 0 rgba(108, 117, 125, 0.74);
     width: 1100px;
 }
 #steven_willekes {
     width: 300px;
 }
 #volledigenaam {
-    text-align: center;
-    font-size: 50px;
+    font-size: 45px;
 }
 #bewerken a img {
     width: 50px;
