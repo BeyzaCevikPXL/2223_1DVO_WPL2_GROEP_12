@@ -67,52 +67,58 @@ li a:hover {
 /*main*/
 #kader {
     box-shadow: 5px 5px 5px 5px rgba(108, 117, 125, 0.74);
+    width: 1100px;
 }
 #steven_willekes {
     width: 300px;
 }
 #volledigenaam {
-text-align: center;
+    text-align: center;
     font-size: 50px;
 }
 #bewerken a img {
     width: 50px;
 }
+.titel {
+    font-weight: 700;
+}
 /*buttons*/
-.afmelden{
-    display: inline-block;
-    padding: 0.35em 1.2em;
-    margin: 0 0.3em 0.3em 0;
-    border-radius: 20px;
-    background-color: white;
+.afmelden {
+    background-color: #fff;
     border-color: #ED4F4F;
-    border-width: medium;
-    box-sizing: border-box;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-    font-size: 1em;
-    text-decoration: none;
     color: #ED4F4F;
     font-weight: bold;
-}
-.verwijderen{
+    transition: transform 0.3s ease-in-out;
     display: inline-block;
     padding: 0.35em 1.2em;
     margin: 0 0.3em 0.3em 0;
-    border-radius: 20px;
-    background-color: #ED4F4F;
+    border-radius: 0.375rem;
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     font-size: 1em;
     text-decoration: none;
+}
+.verwijderen {
+    background-color: #ED4F4F;
+    border-color: #ED4F4F;
     color: white;
     font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.375rem;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    text-decoration: none;
 }
-.fa-sign-out{
-    font-size: 20px;
-}
-.verwijderen:hover, .afmelden:hover{
-    background-color: #a21111;
+.afmelden:hover, .verwijderen:hover {
+    background-color: #d24242;
+    border-color: #d24242;
     color: white;
+    font-weight: bolder;
+    transform: scale(1.1);
 }
 /*footer*/
 .contact{
