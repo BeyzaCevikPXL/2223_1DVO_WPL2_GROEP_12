@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a857813-647b-430e-aadc-e2f540dee5cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bedrijven.html" beforeDir="false" afterPath="$PROJECT_DIR$/bedrijven.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
       <recent name="C:\Users\12001575\OneDrive - PXL\1 DVO\9 Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_12\assets" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.bedrijfsprofiel.html">
     <configuration name="bedrijfsprofiel.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/bedrijfsprofiel.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -86,6 +86,7 @@
       <workItem from="1684155491913" duration="3098000" />
       <workItem from="1684158629786" duration="83000" />
       <workItem from="1684159606377" duration="1355000" />
+      <workItem from="1684220557068" duration="508000" />
     </task>
     <servers />
   </component>
