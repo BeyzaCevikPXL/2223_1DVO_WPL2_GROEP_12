@@ -69,7 +69,9 @@ li a:hover {
 .contact {
     margin-left: 2rem;
 }
-
+ .card-title {
+     font-weight: 700;
+ }
 /*footer*/
 footer{
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
