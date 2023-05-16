@@ -135,6 +135,7 @@ h3{
 }
 .bedrijffoto {
     width: 600px;
+    border-radius: 40px;
 }
 /*footer*/
 .contact{
