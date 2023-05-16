@@ -133,6 +133,9 @@ h3{
     background-color: #a21111;
     color: white;
 }
+.bedrijffoto {
+    width: 600px;
+}
 /*footer*/
 .contact{
     text-decoration: none;
