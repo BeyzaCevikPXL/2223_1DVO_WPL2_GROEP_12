@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f69c3473-7542-4e5f-a509-d36cb9242c74" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bedrijfsprofiel.css" beforeDir="false" afterPath="$PROJECT_DIR$/bedrijfsprofiel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bedrijfsprofiel.html" beforeDir="false" afterPath="$PROJECT_DIR$/bedrijfsprofiel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bedrijven.css" beforeDir="false" afterPath="$PROJECT_DIR$/bedrijven.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bedrijven.html" beforeDir="false" afterPath="$PROJECT_DIR$/bedrijven.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inloggen.html" beforeDir="false" afterPath="$PROJECT_DIR$/inloggen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registreren.html" beforeDir="false" afterPath="$PROJECT_DIR$/registreren.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supplementen.css" beforeDir="false" afterPath="$PROJECT_DIR$/supplementen.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+</project>
