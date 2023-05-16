@@ -75,6 +75,9 @@ li a:hover {
 .card-text{
     font-weight: bold;
 }
+.card-title {
+    font-weight: 700;
+}
 /*footer*/
 .contact{
     text-decoration: none;
