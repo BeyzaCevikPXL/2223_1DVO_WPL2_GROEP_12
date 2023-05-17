@@ -84,7 +84,7 @@ li a:hover {
     border: 1.5px solid #84b8ff;
 }
 
-.product-line-color {
+.borderColor {
     border: 2px solid #84b8ff;
     border-radius: 5px;
 }
@@ -93,7 +93,15 @@ li a:hover {
     padding:100px;
 }
 
+.right{
+    text-align: right;
+}
 
+
+button{
+    border: none;
+    background-color: white;
+}
 
 /*footer*/
 footer{
