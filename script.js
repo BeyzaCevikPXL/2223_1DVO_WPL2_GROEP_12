@@ -1,9 +1,18 @@
-let nummer = 9885;
+//eerst alles inladen, tan pas showen//
+window.addEventListener("load", function() {
+    var container = document.getElementById("container");
+    container.style.visibility = "visible";
+});
 
-function verhoogNummer() {
-    nummer += 10;
-    document.getElementById("cijfer").innerHTML = nummer;
-}
+// aantal personen geholpen//
+window.addEventListener("load", function() {
+    var counter = 9885;
+    var counterSpan = document.getElementById("counter");
 
-// Roep de functie elke 2 weken aan (in milliseconden)
-setInterval(verhoogNummer, 1000 * 60 * 60 * 24 * 7 * 2);
+    function incrementCounter() {
+        counter++;
+        counterSpan.textContent = counter;
+    }
+
+    setInterval(incrementCounter, 10000);
+});
