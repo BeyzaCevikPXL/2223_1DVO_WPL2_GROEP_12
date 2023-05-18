@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e11a43a-ac25-4688-ba7a-bcf7cb44bf32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/checkout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrijfsprofiel.css" beforeDir="false" afterPath="$PROJECT_DIR$/bedrijfsprofiel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrijfsprofiel.html" beforeDir="false" afterPath="$PROJECT_DIR$/bedrijfsprofiel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,21 +34,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../1 TIN/13 Project/stratego-army91/Frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.bedrijfsprofiel.html">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\12001575\OneDrive - PXL\1 DVO\9 Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_12" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.checkout.html">
     <configuration name="accountarbeider.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/accountarbeider.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="bedrijfsprofiel.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/bedrijfsprofiel.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/index.html" useBuiltInWebServerPort="true">
+    <configuration name="checkout.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/checkout.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="inloggen.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/inloggen.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="registreren.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/registreren.html" useBuiltInWebServerPort="true">
@@ -50,11 +61,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.checkout.html" />
         <item itemvalue="JavaScript Debug.bedrijfsprofiel.html" />
         <item itemvalue="JavaScript Debug.accountarbeider.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.registreren.html" />
-        <item itemvalue="JavaScript Debug.inloggen.html" />
       </list>
     </recent_temporary>
   </component>
@@ -64,5 +75,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
