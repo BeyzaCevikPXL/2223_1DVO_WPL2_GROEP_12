@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e11a43a-ac25-4688-ba7a-bcf7cb44bf32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/checkout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inloggen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registreren.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accountarbeider.html" beforeDir="false" afterPath="$PROJECT_DIR$/accountarbeider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bedrijfsprofiel.html" beforeDir="false" afterPath="$PROJECT_DIR$/bedrijfsprofiel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inloggen.css" beforeDir="false" afterPath="$PROJECT_DIR$/inloggen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inloggen.html" beforeDir="false" afterPath="$PROJECT_DIR$/inloggen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registreren.css" beforeDir="false" afterPath="$PROJECT_DIR$/registreren.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registreren.html" beforeDir="false" afterPath="$PROJECT_DIR$/registreren.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +50,17 @@
       <recent name="C:\Users\12001575\OneDrive - PXL\1 DVO\9 Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_12" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.checkout.html">
+  <component name="RunManager" selected="JavaScript Debug.accountarbeider.html">
     <configuration name="accountarbeider.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/accountarbeider.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="bedrijfsprofiel.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/bedrijfsprofiel.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="checkout.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/checkout.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/index.html" useBuiltInWebServerPort="true">
+    <configuration name="inloggen.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/inloggen.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="registreren.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2223_1DVO_WPL2_GROEP_12/registreren.html" useBuiltInWebServerPort="true">
@@ -61,11 +68,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.checkout.html" />
-        <item itemvalue="JavaScript Debug.bedrijfsprofiel.html" />
         <item itemvalue="JavaScript Debug.accountarbeider.html" />
+        <item itemvalue="JavaScript Debug.bedrijfsprofiel.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.registreren.html" />
+        <item itemvalue="JavaScript Debug.inloggen.html" />
       </list>
     </recent_temporary>
   </component>
@@ -86,5 +93,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

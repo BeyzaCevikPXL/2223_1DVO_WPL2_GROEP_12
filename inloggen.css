@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 .socialmedia {
-    width: 100px;
+    width: 100%;
+    height: auto;
 }
 #inloggen form fieldset {
     border-top: 1px solid #86C3FD;
@@ -13,7 +14,7 @@
     color: #86C3FD;
     text-align: center;
 }
-#email_inloggen, #ww_inloggen {
+#email-input, #password-input {
     color: #5b6267;
     background-color: #EDEDED;
     height: 50px;
@@ -25,7 +26,7 @@
 #registreer_hier, #ww_vergeten {
     text-align: center;
 }
-#log_in {
+#login-button {
     color: #fff;
     background-color: rgba(132, 184, 255, 0.63);
     height: 50px;
@@ -39,5 +40,10 @@
     text-decoration: none;
 }
 #inloggen div img {
-    width: 525px;
+    width: 450px;
+}
+.pijl{
+    position: absolute;
+    margin: 50px 0 0 50px;
+    font-size: 30px;
 }

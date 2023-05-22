@@ -44,9 +44,10 @@
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
-            <div class="text-end btns">
-                <a href="registreren.html"><button type="button" class="btn" id="registreren">Registreren</button></a>
-                <a href="inloggen.html"><button type="button" class="btn" id="aanmeldbtn">Aanmelden</button></a>
+            <div class="text-end btns" onchange="updateNavbar()">
+                <a href="registreren.html" class="d-none"><button type="button" class="btn" id="registreren">Registreren</button></a>
+                <a href="inloggen.html" class="d-none"><button type="button" class="btn" id="aanmeldbtn">Aanmelden</button></a>
+                <a href="accountarbeider.html" class="d-none"><i class="fas fa-user" id="profileicon"></i></a>
                 <a href="checkout.html"> <i class="fa-solid fa-cart-shopping"></i></a>
             </div>
         </div>

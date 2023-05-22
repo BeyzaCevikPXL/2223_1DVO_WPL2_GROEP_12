@@ -70,11 +70,7 @@ li a:hover {
 }
 .titelbedrijf{
     font-weight: bold;
-    font-size: 5vw;
-}
-.bedrijffoto{
-    width: 50vw;
-    height: auto;
+    font-size: 4vw;
 }
 h3{
     font-weight: bold;
