@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-#voornaam_registreren, #achternaam_registreren, #email_registreren, #ww1_registreren, #ww2_registreren {
+#voornaam, #achternaam, #email, #password, #confirm-password {
     color: #5b6267;
     background-color: #EDEDED;
     height: 40px;
@@ -12,7 +12,7 @@
     text-align: center;
     font-size: 16px;
 }
-#registreer {
+#sign-up {
     color: #fff;
     background-color: rgba(132, 184, 255, 0.63);
     height: 40px;
@@ -29,4 +29,12 @@
 }
 #tekst_akkoord_registreren {
     font-size: 12px;
+}
+#registreren div img {
+    width: 450px;
+}
+.pijl{
+    position: absolute;
+    margin: 50px 0 0 50px;
+    font-size: 30px;
 }
