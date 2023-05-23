@@ -84,6 +84,10 @@ li a:hover {
     border: 1.5px solid #84b8ff;
 }
 
+.line-bottom{
+    border-bottom: 1.5px solid #84b8ff;
+}
+
 .borderColor {
     border: 2px solid #84b8ff;
     border-radius: 5px;
