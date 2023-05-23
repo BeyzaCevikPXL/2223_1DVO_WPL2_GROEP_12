@@ -8,9 +8,7 @@
 //     const email = emailInput.value;
 //     const password = passwordInput.value;
 //
-//     if(email === "test@test.be" && password === "test1234"){
-//         localStorage.setItem("loggedin","true");
-//     }
+
 //
 //     if (email === '' || password === '') {
 //         alert('Vul alles in!');
@@ -24,10 +22,12 @@ document.getElementById("login-form").addEventListener("submit", function(event)
     var email = document.getElementById("email-input").value;
     var password = document.getElementById("password-input").value;
 
-
+     if(email === "test@test.be" && password === "test1234"){
+         sessionStorage.setItem("loggedin","true");
+     }
     // Save the email and password in local storage
-    localStorage.setItem("email", email);
-    localStorage.setItem("password", password);
+    sessionStorage.setItem("email", email);
+    sessionStorage.setItem("password", password);
 
     // Redirect to the dashboard page
     window.location.href = "accountarbeider.html";
