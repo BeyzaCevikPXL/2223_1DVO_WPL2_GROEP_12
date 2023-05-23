@@ -57,15 +57,25 @@ li a:hover {
     color: #FFA500;
     transform: scale(1.1);
 }
-.fa-cart-shopping{
+.fa-cart-shopping {
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 25px;
     color: black;
 }
 .fa-cart-shopping:hover{
     color: #FFA500;
 }
+#profileIcon{
+    margin-right: 10px;
+    font-size: 30px;
+    color: #FFA500;
+    text-decoration: none;
+}
 
+#profileIcon:hover{
+    color: black;
+}
+/*faq*/
 .contact {
     margin-left: 2rem;
 }
