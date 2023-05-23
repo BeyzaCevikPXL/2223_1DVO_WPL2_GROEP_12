@@ -10,27 +10,28 @@
             crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/570fd61456.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="inloggen.css">
-    <script defer src="script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <main id="inloggen" class="row justify-content-center">
-    <a href="index.html" class="row justify-content-center">
+    <a href="index.html"> <i class="fa-solid fa-arrow-left pijl"></i></a>
+    <div class="row justify-content-center">
         <img src="assets/LOGO_JOB_AHOI_FINAL-02.png" alt="Logo" class="col-6">
-    </a>
-    <form method="post" target="_self" autocomplete="off" name="inloggen" class="col-3 justify-content-center">
-        <input type="email" id="email_inloggen" name="email" value="email"class="col-12 my-3">
-        <input type="password" id="ww_inloggen" name="wachtwoord" value="wachtwoord" minlength="8" class="col-12">
+    </div>
+    <form class="col-xl-3 col-8 justify-content-center" id="login-form">
+        <input type="email" id="email-input" placeholder="Email" class="col-12" required>
+        <input type="password" id="password-input" placeholder="Wachtwoord" minlength="8" class="col-12 my-3" required>
         <a href="#" id="ww_vergeten" class="col-12 row justify-content-end">Wachtwoord vergeten?</a>
-        <input type="button" value="Log in" id="log_in" class="col-12 mt-3">
-        <label class="col-12" id="registreer_hier">Nog geen account? <a href="registreren.html">Registreer hier.</a></label>
+        <button type="submit" id="login-button" class="col-12 mt-5">Login</button>
+        <label class="col-12 mt-1" id="registreer_hier">Nog geen account? <a href="registreren.html">Registreer hier.</a></label>
         <fieldset class="mx-auto my-3 col-12 justify-content-between row">
-            <legend class="col-12">OF LOG IN MET</legend>
-            <label class="col-4"><a href="#"><img class="socialmedia" src="assets/google.png" alt="google"></a></label>
-            <label class="col-4"><a href="#"><img class="socialmedia" src="assets/apple.png" alt="apple"></a></label>
-            <label class="col-4"><a href="#"><img class="socialmedia" src="assets/facebook.png" alt="facebook"></a></label>
+            <legend class="col-12 mt-2">OF LOG IN MET</legend>
+            <label class="col-4"><a href="#"><img class="socialmedia" src="assets/google.png" alt="google" height="150" width="150"></a></label>
+            <label class="col-4"><a href="#"><img class="socialmedia" src="assets/apple.png" alt="apple" height="150" width="150"></a></label>
+            <label class="col-4"><a href="#"><img class="socialmedia" src="assets/facebook.png" alt="facebook" height="150" width="150"></a></label>
         </fieldset>
     </form>
 </main>
+<script defer src="inloggen.js"></script>
 </body>
 </html>

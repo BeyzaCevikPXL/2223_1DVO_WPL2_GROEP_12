@@ -10,6 +10,11 @@ p {
     font-family: 'Lato', sans-serif;
 }
 
+h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
 h4 {
     font-weight: bold;
 }
@@ -20,19 +25,18 @@ h4 {
     height: 60px;
 }
 
-.active {
-    font-weight: bold !important;
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
-#navigatiebar {
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+.active {
+    font-weight: bold !important;
 }
 
 li a {
     color: black;
     margin-left: 2rem;
     transition: transform 0.3s ease-in-out;
-
 }
 
 li a:hover {
@@ -68,7 +72,7 @@ li a:hover {
 
 .fa-cart-shopping {
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 25px;
     color: black;
 }
 
@@ -76,10 +80,21 @@ li a:hover {
     color: #FFA500;
 }
 
+#profileIcon{
+    margin-right: 10px;
+    font-size: 30px;
+    color: #FFA500;
+    text-decoration: none;
+}
+
+#profileIcon:hover{
+    color: black;
+}
+
 /* intro OK*/
 .intro {
     background-color: #B2D2FF;
-    height: 35vw;
+    height: 500px;
     position: relative;
 }
 
@@ -96,8 +111,8 @@ li a:hover {
 }
 
 .introfoto {
-    width: 90%;
-    height: auto;
+    height: 500px;
+    width: 410px;
 }
 
 .logo {
@@ -130,6 +145,7 @@ li a:hover {
 /*qr en install OK */
 .tekstcont {
     text-align: right;
+    font-size: 20px;
 }
 
 .qr {
@@ -137,14 +153,17 @@ li a:hover {
     height: auto;
 }
 
-.googleplay {
-    width: 100%;
-    height: auto;
+.column_qr {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.applestore {
-    width: 100%;
-    height: auto;
+.row-qr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
 }
 
 .geelbolletje {
@@ -159,13 +178,8 @@ li a:hover {
     z-index: -1;
 }
 
-/*Hoe */
-.hwhcont {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
+/*Hoe */
 .titelh1 {
     font-size: 40px;
     font-weight: bold;
@@ -189,13 +203,14 @@ li a:hover {
 
 .scherm {
     transform: rotate(10deg);
-    width: 50%;
+    width: 80%;
     height: auto;
 }
 
 /*mathcmakers*/
 .card {
     border-radius: 0.375rem;
+    text-decoration: none;
 }
 
 .matchbtn {
@@ -211,7 +226,6 @@ li a:hover {
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     font-size: 1em;
-    width: 12%;
     text-decoration: none;
 }
 
@@ -235,6 +249,11 @@ li a:hover {
 }
 
 /*footer*/
+footer {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
 .contact {
     text-decoration: none;
     color: #343a40;
@@ -245,29 +264,77 @@ li a:hover {
     font-weight: bold;
 }
 
-.linksocial {
-    display: flex;
-    justify-content: space-between;
-    gap: 2vw
-}
-
 .nieuwsbrief {
-    font-size: 0.8em;
+    font-size: 0.8rem;
 }
 
 .icons {
     text-decoration: none;
     color: #343a40;
     font-size: 2em;
-    margin: 5px;
 }
 
 @media screen
-and (max-width: 1181px) {
-    .introfoto, .geelbolletje{
+and (max-width: 1000px) {
+    /*intro*/
+    .introfoto, .qr, .geelbolletje, .blauwbolletje {
         display: none;
     }
-    .introtekst{
 
+    .hoofdtitel, .kleintitel, .logo {
+        display: flex;
+        justify-content: center;
     }
+
+    .hoofdtitel {
+        font-size: 50px;
+    }
+
+    .introtekst {
+        right: 0;
+    }
+
+    /*qr*/
+    .counter {
+        display: none;
+    }
+
+    .tekstcont {
+        text-align: center;
+    }
+
+    .facebook {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .credit, .socialcont {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .column_qr{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /*hoe*/
+    .scherm {
+        display: none;
+    }
+
+    .hwhcont {
+        text-align: center;
+    }
+
+    .linksocial {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-content: start;
+    }
+
 }

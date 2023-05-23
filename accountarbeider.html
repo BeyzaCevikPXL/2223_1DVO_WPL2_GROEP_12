@@ -9,7 +9,7 @@
             integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
             crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/570fd61456.js" crossorigin="anonymous"></script>
-    <script defer src="script.js"></script>
+    <script defer src="navbar.js"></script>
     <link rel="stylesheet" href="account_arbeider.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -45,6 +45,7 @@
             <div class="text-end btns">
                 <a href="registreren.html"><button type="button" class="btn" id="registreren">Registreren</button></a>
                 <a href="inloggen.html"><button type="button" class="btn" id="aanmeldbtn">Aanmelden</button></a>
+                <a href="accountarbeider.html"><i class="fas fa-user" id="profileIcon"></i></a>
                 <a href="checkout.html"> <i class="fa-solid fa-cart-shopping"></i></a>
             </div>
         </div>
@@ -52,7 +53,7 @@
     </div>
 </nav>
 <main id="account_arbeider" class="justify-content-center">
-    <div class="container row p-5 my-5 mx-auto justify-content-center" id="kader">
+    <div class="container col-7 col-sm-11 row p-5 my-5 mx-auto justify-content-center" id="kader">
         <div class="row col-lg-10 col-sm-12 p-5 justify-content-evenly align-items-center">
             <img id="steven_willekes" src="assets/Matcher1.png" alt="foto" class="col-lg-6 col-sm-6">
             <h1 class="col-lg-6 col-sm-6" id="volledigenaam">Steven Willekes</h1>
@@ -80,12 +81,12 @@
         </div>-->
     </div>
     <div class="container-fluid row mb-2 justify-content-center">
-        <a class="col-2">
+        <a class="col-lg-2 col-sm-12" href="index.html">
             <button class="btn col-12 afmelden"><i class="fa fa-sign-out" aria-hidden="true"></i>
                 Afmelden
             </button>
         </a>
-        <a class="col-2">
+        <a class="col-lg-2 col-sm-12" href="index.html">
             <button class="btn col-12 verwijderen"><i class="fa fa-sign-out" aria-hidden="true"></i>
                 Verwijder account
             </button>
@@ -93,7 +94,7 @@
     </div>
 </main>
 <!--footer-->
-<footer>
+<footer class="mt-5">
     <div class="row">
         <div class="col-12 col-md-2 text-center">
             <p>&copy; 2023 Job Ahoi</p>

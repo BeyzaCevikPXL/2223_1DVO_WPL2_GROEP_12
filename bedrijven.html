@@ -20,30 +20,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<header class="p-3 outline-dark" id="navigatiebar">
+<nav class="navbar navbar-expand-lg p-3 outline-dark justify-content-around ">
     <div class="container">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="index.html"> <img src="assets/LOGO_JOB_AHOI_FINAL-07.png" alt="icontje" class="iconlogo"></a>
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="hoe_werkt_het.html" class="nav-link px-2 text-dark">Hoe werkt het?</a></li>
-                <li><a href="bedrijven.html" class="nav-link px-2 text-dark active">Bedrijven</a></li>
-                <li><a href="matchers.html" class="nav-link px-2 text-dark">Matchers</a></li>
-                <li><a href="supplementen.html" class="nav-link px-2 text-dark">Supplementen</a></li>
-                <li><a href="overons.html" class=" nav-link px-2 text-dark">Over ons</a></li>
-                <li><a href="contact.html" class="nav-link px-2 text-dark">Contact</a></li>
+        <a class="d-flex flex-wrap align-items-center  justify-content-center  navbar-brand" href="index.html"> <img
+                src="assets/LOGO_JOB_AHOI_FINAL-07.png" alt="icontje" class="iconlogo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="hoe_werkt_het.html">Hoe werkt het?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="bedrijven.html">Bedrijven</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="matchers.html">Matchers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="supplementen.html">Supplementen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="overons.html">Over Ons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
             </ul>
             <div class="text-end btns">
                 <a href="registreren.html"><button type="button" class="btn" id="registreren">Registreren</button></a>
                 <a href="inloggen.html"><button type="button" class="btn" id="aanmeldbtn">Aanmelden</button></a>
+                <a href="checkout.html"> <i class="fa-solid fa-cart-shopping"></i></a>
             </div>
-            <a href="checkout.html"> <i class="fa-solid fa-cart-shopping"></i></a>
         </div>
     </div>
-</header>
+</nav>
 <main id="bedrijven" class="container mt-5">
     <div class="row col-12 mx-auto">
         <div class="col-12 col-md-3 mb-4 link">
-            <a href="bedrijfsprofiel.html" class="card" style="height: 380px">
+            <a href="bedrijfsprofiel.html" class="card">
                 <img src="assets/metaalfac.png" class="bedrijf" alt="bedrijf foto"/>
                 <div class="card-body">
                     <h2 class="card-title">Metalverse</h2>
@@ -59,7 +76,7 @@
             </a>
         </div>
         <div class="col-12 col-md-3 mb-4 link">
-            <a href="bedrijfsprofiel.html" class="card" style="height: 380px">
+            <a href="bedrijfsprofiel.html" class="card">
                 <img src="assets/logistiekfac.jpg" class="bedrijf" alt="bedrijf foto"/>
                 <div class="card-body">
                     <h2 class="card-title">Logic Hasselt</h2>
@@ -74,7 +91,7 @@
             </a>
         </div>
         <div class="col-12 col-md-3 mb-4 link">
-            <a href="bedrijfsprofiel.html" class="card" style="height: 380px">
+            <a href="bedrijfsprofiel.html" class="card">
                 <img src="assets/houtfac.png" class="bedrijf" alt="bedrijf foto"/>
                 <div class="card-body">
                     <h2 class="card-title">Splinter NV</h2>
@@ -87,7 +104,7 @@
             </a>
         </div>
         <div class="col-12 col-md-3 mb-4 link">
-            <a href="bedrijfsprofiel.html" class="card" style="height: 380px">
+            <a href="bedrijfsprofiel.html" class="card">
                 <img src="assets/bedrijf4.png" class="bedrijf" alt="bedrijf foto"/>
                 <div class="card-body">
                     <h2 class="card-title">Janssens & Co</h2>
@@ -100,7 +117,7 @@
             </a>
         </div>
         <div class="col-12 col-md-3 mb-4 link">
-            <a href="bedrijfsprofiel.html" class="card" style="height: 380px">
+            <a href="bedrijfsprofiel.html" class="card">
                 <img src="assets/bedrijf5.png" class="bedrijf" alt="bedrijf foto"/>
                 <div class="card-body">
                     <h2 class="card-title">Fransbouwer</h2>
@@ -113,7 +130,7 @@
             </a>
         </div>
         <div class="col-12 col-md-3 mb-4 link">
-            <a href="bedrijfsprofiel.html" class="card" style="height: 380px">
+            <a href="bedrijfsprofiel.html" class="card">
                 <img src="assets/bedrijf6.png" class="bedrijf" alt="bedrijf foto"/>
                 <div class="card-body">
                     <h2 class="card-title">Metaleuven</h2>
@@ -126,7 +143,7 @@
             </a>
         </div>
         <div class="col-12 col-md-3 mb-4 link">
-            <a href="bedrijfsprofiel.html" class="card" style="height: 380px">
+            <a href="bedrijfsprofiel.html" class="card">
                 <img src="assets/bedrijf7.png" class="bedrijf" alt="bedrijf foto"/>
                 <div class="card-body">
                     <h2 class="card-title">Alumi</h2>
@@ -140,7 +157,7 @@
             </a>
         </div>
         <div class="col-12 col-md-3 mb-4 link">
-            <a href="bedrijfsprofiel.html" class="card" style="height: 380px">
+            <a href="bedrijfsprofiel.html" class="card">
                 <img src="assets/bedrijf8.png" class="bedrijf" alt="bedrijf foto"/>
                 <div class="card-body">
                     <h2 class="card-title">Steven Steen</h2>
@@ -154,7 +171,7 @@
             </a>
         </div>
         <div class="col-12 col-md-3 mb-4 link">
-            <a href="bedrijfsprofiel.html" class="card" style="height: 380px">
+            <a href="bedrijfsprofiel.html" class="card">
                 <img src="assets/bedrijf9.png" class="bedrijf" alt="bedrijf foto"/>
                 <div class="card-body">
                     <h2 class="card-title">Dirk's Logica</h2>
@@ -168,7 +185,7 @@
             </a>
         </div>
         <div class="col-12 col-md-3 mb-4 link">
-            <a href="bedrijfsprofiel.html" class="card" style="height: 380px">
+            <a href="bedrijfsprofiel.html" class="card">
                 <img src="assets/bedrijf10.png" class="bedrijf" alt="bedrijf foto"/>
                 <div class="card-body">
                     <h2 class="card-title">Metallux</h2>
@@ -181,7 +198,7 @@
             </a>
         </div>
         <div class="col-12 col-md-3 mb-4 link">
-            <a href="bedrijfsprofiel.html" class="card" style="height: 380px">
+            <a href="bedrijfsprofiel.html" class="card">
                 <img src="assets/bedrijf11.png" class="bedrijf" alt="bedrijf foto"/>
                 <div class="card-body">
                     <h2 class="card-title">ECO Housing</h2>
@@ -194,7 +211,7 @@
             </a>
         </div>
         <div class="col-12 col-md-3 mb-4 link">
-            <a href="bedrijfsprofiel.html" class="card" style="height: 380px">
+            <a href="bedrijfsprofiel.html" class="card">
                 <img src="assets/bedrijf12.png" class="bedrijf" alt="bedrijf foto"/>
                 <div class="card-body">
                     <h2 class="card-title">Stevig NV</h2>
@@ -209,36 +226,40 @@
         </div>
     </div>
 </main>
-<footer class="container">
-    <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p class="col-12 col-md-2 mb-0 text-body-secondary">&copy; 2023 Job Ahoi</p>
-        <div class="col-12 col-md-8">
-            <a href="faq.html" class="contact d-flex align-items-center justify-content-center">FAQ</a>
-            <div class="linksocial d-flex align-items-center justify-content-center">
-                <a href="tel:+32679244268" class="contact"><i class="fa-solid fa-phone-flip mx-2"></i> +32 679 24 42
-                    68</a>
-                <a href="https://www.google.com/maps/place/Corda+Campus/@50.951737,5.3524118,15z/data=!4m6!3m5!1s0x47c12142
-            85548b13:0xed3def18ce40a171!8m2!3d50.951737!4d5.3524118!16s%2Fg%2F1pp2wz07_" class="contact">
-                    <i class="fa-solid fa-location-dot mx-2"></i>Corda Campus | Hasselt</a>
-                <a href="mailto: JobAhoi@gmail.com" class="contact"><i class="fa-solid fa-envelope mx-2"></i>
-                    JobAhoi@gmail.com</a>
+<footer class="mt-5">
+    <div class="row">
+        <div class="col-12 col-md-2 text-center">
+            <p>&copy; 2023 Job Ahoi</p>
+        </div>
+        <div class="col-12 col-md-7">
+            <div class="row text-center">
+                <div class="col-12">
+                    <a href="faq.html"  class="contact">FAQ</a>
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="tel:+32679244268" class="contact"><i class="fa-solid fa-phone-flip"></i> +32 679 24 42 68</a>
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="https://www.google.com/maps/place/Corda+Campus/@50.951737,5.3524118,15z/data=!4m6!3m5!1s0x47c1214285548b13:0xed3def18ce40a171!8m2!3d50.951737!4d5.3524118!16s%2Fg%2F1pp2wz07_" class="contact">
+                        <i class="fa-solid fa-location-dot mx-2"></i>Corda Campus | Hasselt</a>
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="mailto: JobAhoi@gmail.com" class="contact"><i class="fa-solid fa-envelope mx-2"></i>JobAhoi@gmail.com</a>
+                </div>
             </div>
         </div>
-        <div class="col-12 col-md-2">
-            <div class="d-flex align-items-center justify-content-center">
-                <a href="https://www.instagram.com/jobahoi" class="icons"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.facebook.com/jobahoi" class="icons"><i
-                        class="fa-brands fa-square-facebook"></i></a>
-                <a href="https://www.linkedin.com/jobahoi" class="icons"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.twitter.com/jobahoi" class="icons"><i
-                        class="fa-brands fa-twitter fa-lg"></i></a>
-            </div>
-            <div>
-                <a href="">
-                    <button class="btn nieuwsbrief">Blijf op de hoogte via onze nieuwsbrief
+        <div class="col-12 col-md-3">
+            <div class="row text-center">
+                <div class="col-12"><a href="https://www.instagram.com/jobahoi" class="icons"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/jobahoi" class="icons"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.linkedin.com/jobahoi" class="icons"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.twitter.com/jobahoi" class="icons"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                </div>
+                <div class="col-12">
+                    <a class="nieuwsbrief contact">Blijf op de hoogte via onze nieuwsbrief
                         <i class="fa-solid fa-arrow-right"></i>
-                    </button>
-                </a>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
