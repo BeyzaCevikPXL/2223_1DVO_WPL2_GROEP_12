@@ -50,6 +50,48 @@ function signUp() {
 
     window.location.href = 'index.html';
 }*/
+document.getElementById("login-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    var voornaam = document.getElementById("voornaam").value;
+    var naam = document.getElementById("achternaam").value;
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+    var confirmPassword = document.getElementById("confirm-password").value;
+    var checkbox = document.getElementById("akkoord_registreren").checked;
+
+    // Validate inputs
+    if (voornaam === "" || naam === "" || email === "" || password === "" || confirmPassword === "") {
+        alert("Vul gelieve alles in.");
+        return false;
+    }
+
+    if (password.length < 8) {
+        alert("Wachtwoord moet 8 tekens lang zijn.");
+        return false;
+    }
+
+    if (password !== confirmPassword) {
+        alert("Wachtwoorden komen niet overeen.");
+        return false;
+    }
+
+    if (!checkbox) {
+        alert("Gelieve het vereiste vakje aan te vinken.");
+        return false;
+    }
+    if(email === "test@test.be" && password === "test1234"){
+        sessionStorage.setItem("loggedin","true");
+    }
+
+    // Save the email and password in local storage
+    sessionStorage.setItem("email", email);
+    sessionStorage.setItem("password", password);
+
+    // Redirect to the dashboard page
+    window.location.href = "index.html";
+});
+/*
 function validateForm(event) {
     event.preventDefault();
     // Retrieve form inputs
@@ -81,7 +123,10 @@ function validateForm(event) {
         return false;
     }
 
-    localStorage.setItem('email', email);
-    localStorage.setItem('password', password);
+    sessionStorage.setItem("email", email);
+    sessionStorage.setItem("password", password);
+
+    sessionStorage.setItem("loggedin","true");
+
     window.location.href = "index.html";
-}
+}*/
