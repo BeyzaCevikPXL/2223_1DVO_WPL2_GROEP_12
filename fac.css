@@ -76,6 +76,10 @@ li a:hover {
     color: black;
 }
 /*faq*/
+.blobbie{
+    z-index: -1;
+    position: absolute;
+}
 .contact {
     margin-left: 2rem;
 }
@@ -122,6 +126,9 @@ input{
     border-bottom: 2px solid #84b8ff;
     border-radius: 0 !important;
     padding-top: 20px;
+}
+#tekstje{
+    color: white !important;
 }
 
 /*footer*/
