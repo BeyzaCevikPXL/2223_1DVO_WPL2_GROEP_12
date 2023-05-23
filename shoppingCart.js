@@ -2,20 +2,20 @@
 let cartItems = [
     {
         id: 0,
-        titel: "Starter",
-        text: "10 vacatures, 50 matches, weergave op de website",
-        prijs: 10
+        titel: "Uitgebreid",
+        text: "Maximum 30 vacatures in plaats van 10 & Maximum 100 Matchers in plaats van 50",
+        prijs: 15
     },
     {
         id: 1,
-        titel: "Uitgebreid",
-        text: "15 vacatures, 100 matches, weergave op de website, persoonlijk gesprek met een matcher",
-        prijs: 22
+        titel: "Geavanceerd",
+        text: "Vacatures bovenaan zichtbaar in de app & Persoonlijk gesprek met een matcher",
+        prijs: 20
     },
     {
         id: 2,
-        titel: "Professioneel",
-        text: "15 vacatures, 100 matches, weergave op de website, persoonlijk gesprek met een matcher, Partner (logo op banner)",
+        titel: "Partner",
+        text: "Weergave op de website & Partner (samen op de banner)",
         prijs: 35
     }
 ];
@@ -26,7 +26,6 @@ let button = document.querySelectorAll(".buttonClick");
 button.forEach((btn) => {
     btn.addEventListener('click', event => {
         let waarde = event.target.dataset.waarde;
-        // debugger;
         addItem(waarde);
     })
 });
@@ -49,7 +48,7 @@ function addItem(waarde){
 //remove Item
 function removeItem(waarde) {
     waarde = waarde * 1;
-    console.log("remove Item:--" + waarde + "--");
+
 
     for (let i = 0; i < Cart.length; i++) {
         if (Cart[i].id === waarde) {
@@ -64,13 +63,26 @@ function total() {
     for(let i = 0; i < Cart.length; i++){
         totaal += Cart[i].prijs;
     }
-    if (Cart.length > 1){
+    if (Cart.length <= 1){
+        if (document.getElementById("kortingLi")){
+            // document.getElementById("kortingLi").style.display = "none";
+            document.getElementById('kortingLi').style.visibility = 'hidden';
+        }
+    }
+    else{
+        if (document.getElementById("kortingLi")) {
+            document.getElementById('kortingLi').style.visibility = 'visible';
+            // document.getElementById("kortingLi").style.display = "block";
+        }
         korting = (totaal/10);
     }
     totalePrijs = "€" + (totaal-korting);
-    document.getElementById("standaardPrijs").innerHTML = totaal;
-    document.getElementById("korting").innerHTML = "-" + korting;
-    document.getElementById("totaalPrijs").innerHTML = totalePrijs;
+    if(document.getElementById("standaardPrijs")) {
+        document.getElementById("standaardPrijs").innerHTML = "€" + totaal;
+        document.getElementById("korting").innerHTML = "- €" + korting;
+        document.getElementById("totaalPrijs").innerHTML = totalePrijs;
+    }
+
 }
 
 
@@ -91,7 +103,6 @@ function displayShoppingCart(){
         // }
         // else{
         for (let i = 0; i < Cart.length; i++) {
-
             // elements createn
             let div_Row1 = document.createElement("div");
             let div_Row1_Col1 = document.createElement("div");
