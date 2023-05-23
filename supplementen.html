@@ -8,6 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="supplementen.css">
     <script src="https://kit.fontawesome.com/570fd61456.js" crossorigin="anonymous"></script>
+    <script defer src="navbar.js"></script>
     <script defer src="shoppingCart.js"></script>
 </head>
 <body>
@@ -41,6 +42,7 @@
             <div class="text-end btns">
                 <a href="registreren.html"><button type="button" class="btn" id="registreren">Registreren</button></a>
                 <a href="inloggen.html"><button type="button" class="btn" id="aanmeldbtn">Aanmelden</button></a>
+                <a href="accountarbeider.html"><i class="fas fa-user-circle" id="profileIcon"></i></a>
                 <a href="checkout.html"> <i class="fa-solid fa-cart-shopping"></i></a>
             </div>
         </div>
@@ -52,14 +54,13 @@
         <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm mt-4">
                 <div class="card-header py-3">
-                    <h4 class="my-0 fw-normal">Starter</h4>
+                    <h4 class="my-0 fw-normal">Uitgebreid</h4>
                 </div>
                 <div class="card-body pakket">
-                    <h1 class="card-title pricing-card-title">€10<small class="text-body-secondary fw-light">/maand</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4 pb-5">
-                        <li>10 vacatures</li>
-                        <li>50 matches</li>
-                        <li>Weergave op de website</li>
+                    <h1 class="card-title pricing-card-title">€15</h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Maximum 30 vacatures in plaats van 10</li>
+                        <li>Maximum 100 matches in plaats van 50</li>
                     </ul>
                     <button data-waarde="0" type="button" class="buttonClick color w-100 btn btn-lg "><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> In winkelwagen</button>
                 </div>
@@ -68,15 +69,13 @@
         <div class="col pakket">
             <div class="card mb-4 rounded-3 shadow-sm border-color toppakket">
                 <div class="card-header py-3 color border-color">
-                    <h4 class="my-0 fw-normal">Uitgebreid</h4>
+                    <h4 class="my-0 fw-normal">Geavanceerd</h4>
                 </div>
                 <div class="card-body toppakket">
-                    <h1 class="card-title pricing-card-title">€22<small class="text-body-secondary fw-light">/maand</small></h1>
+                    <h1 class="card-title pricing-card-title">€20</h1>
                     <ul class="list-unstyled mt-3 mb-4">
-                        <li>15 vacatures</li>
-                        <li>100 matches</li>
-                        <li>Weergave op de website</li>
-                        <li>Persoonlijk gesprek met één van onze matchers</li>
+                        <li>Vacatures bovenaan zichtbaar</li>
+                        <li>Persoonlijk gesprek met een matcher</li>
                     </ul>
                     <button data-waarde="1" type="button" class="buttonClick color w-100 btn btn-lg color mt-1"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> In winkelwagen</button>
                 </div>
@@ -85,16 +84,13 @@
         <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm mt-4">
                 <div class="card-header py-3 ">
-                    <h4 class="my-0 fw-normal">Professioneel</h4>
+                    <h4 class="my-0 fw-normal">Partner</h4>
                 </div>
                 <div class="card-body pakket">
-                    <h1 class="card-title pricing-card-title">€35<small class="buttonClick text-body-secondary fw-light">/maand     </small></h1>
+                    <h1 class="card-title pricing-card-title">€35</h1>
                     <ul class="list-unstyled mt-3 mb-4">
-                        <li>15 vacatures</li>
-                        <li>100 matches</li>
                         <li>Weergave op de website</li>
-                        <li>Persoonlijk gesprek met een matcher</li>
-                        <li>Partner (logo op banner)</li>
+                        <li>Partner (samen op de banner)</li>
                     </ul>
                     <button data-waarde="2" type="button" class="buttonClick color w-100 btn btn-lg color"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> In winkelwagen</button>
                 </div>
@@ -110,39 +106,46 @@
             <tr>
                 <th style="width: 32%;"></th>
                 <th style="width: 17%;">Standaard (gratis)</th>
-                <th style="width: 17%;">starter</th>
                 <th style="width: 17%;">Uitgebreid</th>
-                <th style="width: 17%;">Professioneel</th>
+                <th style="width: 17%;">Geavanceerd</th>
+                <th style="width: 17%;">Partner</th>
             </tr>
             </thead>
             <tbody>
             <tr>
                 <th scope="row" class="text-start">Maximum aantal vacatures</th>
-                <td>5</td>
                 <td>10</td>
-                <td>15</td>
-                <td>20</td>
+                <td>30</td>
+                <td>10</td>
+                <td>10</td>
             </tr>
 
             <tr>
                 <th scope="row" class="text-start">Maximum aantal matches</th>
-                <td>25</td>
                 <td>50</td>
                 <td>100</td>
-                <td>unlimited</td>
-            </tr>
-            <tr>
-                <th scope="row" class="text-start">Bedrijf op de website</th>
-                <td></td>
-                <td><i class="fa-solid fa-check"></i></td>
-                <td><i class="fa-solid fa-check"></i></td>
-                <td><i class="fa-solid fa-check"></i></td>
+                <td>50</td>
+                <td>50</td>
             </tr>
             <tr>
                 <th scope="row" class="text-start">Persoonlijk gesprek met matchers</th>
                 <td></td>
                 <td></td>
                 <td><i class="fa-solid fa-check"></i></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row" class="text-start">Vacatures bovenaan zichtbaar</th>
+                <td></td>
+                <td></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row" class="text-start">Bedrijf op de website</th>
+                <td></td>
+                <td></td>
+                <td></td>
                 <td><i class="fa-solid fa-check"></i></td>
             </tr>
             <tr>
