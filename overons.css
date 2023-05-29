@@ -86,6 +86,13 @@ li a:hover {
     left: 0;
     z-index: -1;
 }
+.groepsfoto{
+    border: 2px solid #FFA500;
+    border-radius: 0.375rem;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    height: auto;
+}
 .blauwbol{
     position: absolute;
     right: 0;
