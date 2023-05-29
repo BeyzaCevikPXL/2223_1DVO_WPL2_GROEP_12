@@ -17,11 +17,11 @@
 #email-input, #password-input {
     color: #5b6267;
     background-color: #EDEDED;
-    height: 50px;
+    height: 40px;
     border: none;
     border-radius: 10px;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
 }
 #registreer_hier, #ww_vergeten {
     text-align: center;
@@ -29,11 +29,11 @@
 #login-button {
     color: #fff;
     background-color: rgba(132, 184, 255, 0.63);
-    height: 50px;
+    height: 40px;
     border: none;
     border-radius: 10px;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
 }
 #registreer_hier a, #ww_vergeten {
     color: #86C3FD;
